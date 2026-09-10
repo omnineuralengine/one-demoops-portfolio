@@ -1,20 +1,20 @@
-# Private source, public demo: release preparation
+# Public portfolio: release configuration and evidence
 
-**Target: a private GitHub repository and a public Vercel demonstration.** This folder's name does not determine repository visibility. No source publication, push, remote connection, Vercel project link, deployment, protection change, or history rewrite has been performed.
+**Live demo: [ONE DemoOps Control Plane](https://one-demoops-control-plane-public-re.vercel.app/).** This is a public portfolio repository with a public Vercel demonstration. Original project code has no open-source license; third-party dependencies retain their own terms.
 
-**Local status: READY for first deployment.** All current local checks passed after aligning Node.js and adding public third-party notices. No unresolved application or build blocker was found. This is not certification of a deployed site: the account and project checks below remain unverified, a live URL is pending the first authorized deployment, and remote GitHub checks are pending the first authorized push.
+**Evidence scope:** the local validation tables below preserve results from release preparation before hosting. They are historical evidence, not certification of the latest revision, current deployment, remote CI, or analytics dashboard. Verify those separately after changes.
 
 ## Reviewed application boundary
 
 This snapshot contains application routes, components, typed rules, tests, source-checking tools, bounded public-source artifacts, synthetic fixtures, locked dependencies, non-secret configuration, and documentation. Data under `src/generated/change-radar/` is reviewed application input with recorded dates, not compiled output.
 
-The original private history, hosting link, credentials, personal records, setup prompts, private notes, archived prototype, dependency folders, build output, logs, screenshots, and test traces are excluded from the reviewed commit. This is a separate Git repository on `main` without remotes. Its initial packaging identity is `ONE Release Preparation <release@example.invalid>`; the scoped follow-up commit uses the machine's existing configured Git identity. Neither statement verifies GitHub or Vercel authorization, and the original commit is retained without rewriting history. Generated validation files and independently installed dependencies are kept in a separate temporary validation workspace after testing, outside the release folder.
+The original private history, hosting link, credentials, personal records, setup prompts, private notes, archived prototype, dependency folders, build output, logs, screenshots, and test traces were excluded from the reviewed source snapshot. It began as a separate Git repository on `main` without remotes, using `ONE Release Preparation <release@example.invalid>` as its initial packaging identity. Those preparation details describe the original snapshot, not the repository's current GitHub or Vercel connection. Installation, build, and validation outputs remain excluded from source control.
 
-Visitors receive the application, browser code, and synthetic data, without access to the private repository or administrative accounts. Decisions stay in browser memory; explicit fictional exports save a file to the visitor's device. No browser route invokes source-checking scripts. See [security boundaries](SECURITY.md).
+Visitors receive the application, browser code, and synthetic data without access to administrative accounts. Source is available in the public portfolio repository. Decisions stay in browser memory; explicit fictional exports save a file to the visitor's device. No browser route invokes source-checking scripts. See [security boundaries](SECURITY.md).
 
 ## Vercel build settings
 
-These settings come from the repository. No existing Vercel dashboard or account configuration was inspected or changed.
+These settings describe the application configuration; deployment logs and project settings establish the values used by an individual deployment.
 
 | Setting | Value for this application |
 | --- | --- |
@@ -25,22 +25,22 @@ These settings come from the repository. No existing Vercel dashboard or account
 | Output directory | Framework-managed Next.js output; local build directory is `.next`. Leave the output-directory override unset |
 | Node.js | `24.x`, matching `package.json` and the lockfile root; local checks and GitHub workflow use 24.18.0 |
 | Required application environment values | None |
-| Optional values | `ONE_ALLOW_ANALYTICS=false` and `ONE_ALLOW_INDEXING=false` by default |
+| Optional values | The committed example defaults both switches to `false`. This production demo opts in with `ONE_ALLOW_ANALYTICS=true`; indexing remains controlled separately by `ONE_ALLOW_INDEXING` |
 | Hosting-provided values | `NODE_ENV`, `VERCEL`, `VERCEL_ENV`, `VERCEL_PROJECT_PRODUCTION_URL`, and `VERCEL_URL`; use the new host's system variables, not values copied from the original project |
 | Routing | `/` and `/briefing` open the briefing; `/lab?tour=1` opens the journey; `/about`, `/notices`, `/robots.txt`, and `/opengraph-image` use native Next.js routes. Unknown paths return 404; no custom rewrites or base path |
 | Additional configuration | No `vercel.json` is needed for these Next.js defaults |
 
-The Next.js preset manages build output. [Vercel build configuration](https://vercel.com/docs/deployments/configure-a-build) documents these settings. Vercel supports Node.js 24.x and manages minor/patch updates; confirm the actual hosted patch in the first build log. [Supported Node.js versions](https://vercel.com/docs/functions/runtimes/node-js/node-js-versions)
+The Next.js preset manages build output. [Vercel build configuration](https://vercel.com/docs/deployments/configure-a-build) documents these settings. Vercel supports Node.js 24.x and manages minor/patch updates; confirm the actual hosted patch in the deployment build log. [Supported Node.js versions](https://vercel.com/docs/functions/runtimes/node-js/node-js-versions)
 
-Analytics require explicit opt-in plus production hosting markers; local and preview builds remain off. No analytics credential or project identifier is included. Leave both optional switches off for the initial visitor check. Hosting-provider request logs are separate.
+Analytics require `ONE_ALLOW_ANALYTICS=true`, `NODE_ENV=production`, `VERCEL=1`, and `VERCEL_ENV=production` when building the deployment. The root layout includes Vercel Analytics only when all four conditions hold. Its client filter allows pageviews only and removes query strings and fragments from tracked page URLs; custom events are disabled. Automated pageviews and visits with referrers containing queries, fragments, or credentials are suppressed, although the script can still load. Local and preview builds remain off. Enable Web Analytics in the Vercel project and redeploy after changing the production environment setting. Hosting-provider request logs are separate. A successful build does not prove analytics data has appeared in the dashboard.
 
-Confirm that Vercel's system environment variables are exposed to the build so metadata uses the actual production hostname. Local metadata falls back to localhost; no hosted URL has been invented. [Vercel system variables](https://vercel.com/docs/environment-variables/system-environment-variables)
+Confirm that Vercel's system environment variables are exposed to the build so metadata uses the actual production hostname. Local metadata falls back to localhost. [Vercel system variables](https://vercel.com/docs/environment-variables/system-environment-variables)
 
-## Current independent local validation
+## Historical independent local validation
 
-This folder has its own installation; dependencies and build output are not borrowed from the original project. The local host uses Windows, Node.js 24.18.0, and npm 11.16.0. GitHub Actions now selects Node.js 24.18.0; its first remote Linux run remains pending.
+These preparation checks used this folder's own installation, Windows, Node.js 24.18.0, and npm 11.16.0. Dependencies and build output were not borrowed from the original project. GitHub Actions selected Node.js 24.18.0; its first remote Linux run had not yet been verified when this evidence was recorded.
 
-| Current revision check | Result |
+| Preparation revision check | Recorded result |
 | --- | --- |
 | `npm ci` | Passed: 445 packages installed in approximately 46 seconds; audit reported zero known vulnerabilities |
 | Workflow installation command | `npm ci --ignore-scripts --no-audit --no-fund` passed locally in approximately 48 seconds |
@@ -57,11 +57,11 @@ This folder has its own installation; dependencies and build output are not borr
 | Final incremental source and asset review | 11 changed/new files, 13 production static assets, and 7 HTML/notice outputs reviewed; no credential, private-account-link, or personal-path findings |
 | Original project preservation | Rechecked all 184 original source-file hashes: identical, no additions, Git status unchanged |
 
-The install reported the ESLint end-of-life warning below and a local npm policy warning for `unrs-resolver`'s optional postinstall. No script permission was broadened. Warnings are recorded separately from check failures; no completed current check above failed.
+The install reported the ESLint end-of-life warning below and a local npm policy warning for `unrs-resolver`'s optional postinstall. No script permission was broadened. Warnings are recorded separately from check failures; no completed preparation check above failed.
 
 ### Earlier snapshot evidence
 
-These prior results establish a baseline, not validation of the current Node.js declaration and notices changes:
+These earlier results establish a baseline that predates the Node.js declaration and notices changes checked above:
 
 | Earlier check | Recorded evidence |
 | --- | --- |
@@ -95,22 +95,21 @@ This is **not an automatic deployment blocker**: no repository policy requires c
 
 ## Licensing and visitor notices
 
-DemoOps source stays private. Selecting an open-source license for DemoOps is outside this hosting task and is not a prerequisite imposed by this release process. No new project license was selected. The Apache 2.0 decision for the separate ONE-job-loop project does not apply to DemoOps.
+DemoOps is a public portfolio repository. Original project code has no open-source license, and public availability does not grant one. The Apache 2.0 decision for the separate ONE-job-loop project does not apply to DemoOps.
 
-Third-party terms remain independent and preserved in [third-party notices](../THIRD_PARTY_NOTICES.md) and `licenses/`. The footer links to a static `GET /notices` response, making runtime dependency notices available to visitors while the repository stays private. Its locally verified 279,797-byte response retains all six runtime notice inputs, including the bundled Next.js notices and their upstream attribution. It publishes notice text without publishing private repository documents. Hosted delivery remains pending first deployment.
+Third-party terms remain independent and preserved in [third-party notices](../THIRD_PARTY_NOTICES.md) and `licenses/`. The footer links to a static `GET /notices` response, making runtime dependency notices available directly to visitors. During preparation, its locally verified 279,797-byte response retained all six runtime notice inputs, including the bundled Next.js notices and their upstream attribution. Recheck hosted delivery after deployments.
 
 Upstream notice bytes retain their original line endings and whitespace through `.gitattributes`; they are not reformatted for a whitespace check. This review is not a comprehensive license-compatibility certification.
 
-## Actual deployment blockers and pending checks
+## Deployment verification and remaining limitations
 
-No unresolved local deployment blocker was found, and no local check failed. No Vercel deployment has failed because none has been attempted. The following hosting conditions remain unverified; a failure in an applicable authorization, plan, protection, or required-check gate must be resolved before deployment proceeds:
+The preparation review found no unresolved local deployment blocker. Its historical results cannot establish the status of a later deployment. For each release:
 
-- **Connection:** no remote or Vercel project is linked. Verify the intended private repository, narrowly scoped integration access, target project, and production branch when deployment is authorized.
-- **Plan eligibility:** a private repository owned by a GitHub organization cannot connect to a Vercel Hobby team. Repository ownership and Vercel plan are unknown, so this is conditional. Keep the intended repository private. [Vercel private repository rules](https://vercel.com/docs/git#deploying-private-git-repositories)
-- **Commit-author eligibility:** verify the configured author's GitHub/Vercel association and authorization for the selected integration. The initial neutral packaging identity is not a linked deployment identity; the follow-up uses existing Git configuration without claiming verified platform access. Do not fabricate an identity or rewrite history to pass this check. [Vercel Git authorization](https://vercel.com/docs/git#deploying-private-git-repositories)
-- **Dashboard and visitor access:** confirm build settings, environment values, applicable deployment protection, and intended public-demo access. No existing protection was inspected or changed; this report does not instruct disabling it.
-- **First deployment:** verify the actual URL, routes including `/notices`, journey/reset, and visitor network behavior before adding a live-demo link. The live URL remains pending.
-- **First push:** the included workflow only validates; it saves no checkout credentials and has no remote-write or deployment job. Its Linux execution remains pending. Local Windows success cannot certify remote execution.
+- Confirm the intended repository, Vercel project, production branch, and deployed revision.
+- Check build settings, production environment values, applicable deployment protection, and public visitor access.
+- Verify the live URL, routes including `/notices`, journey/reset, and visitor network behavior.
+- Confirm the analytics script loads, a normal manual visit sends a pageview with no query string or fragment in its tracked URL, and production visits appear in the Vercel dashboard. Automated checks suppress events and cannot prove dashboard ingestion. Dashboard verification is separate from deployment success.
+- Check the latest remote CI result. The included workflow only validates; it saves no checkout credentials and has no remote-write or deployment job. Local Windows success cannot certify remote execution.
 
 Physical devices, screen-reader speech, Firefox, and Safari remain unverified. Establish an appropriate reporting contact for the hosted lab. Validation needs no private account, provider call, or live source synchronization.
 

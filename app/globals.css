@@ -1869,6 +1869,7 @@ summary:focus-visible,
 
 .foundry-receipt { margin-top: 0.7rem; padding: 0.7rem; border: 1px solid rgba(0, 153, 102, 0.38); border-radius: 10px; background: rgba(0, 153, 102, 0.045); }
 .foundry-receipt--compact { margin-bottom: 0.6rem; }
+.foundry-receipt code { overflow-wrap: anywhere; }
 .foundry-receipt--compact > p { margin: 0.5rem 0 0; color: var(--text-muted); font-size: 0.72rem; }
 .foundry-receipt__header,
 .foundry-receipt__header > div { display: flex; gap: 0.5rem; align-items: center; }
@@ -1963,7 +1964,7 @@ summary:focus-visible,
 .foundry-report-card li > span { display: flex; gap: 0.3rem; align-items: center; color: var(--one-green-bright); font-size: 0.68rem; }
 .foundry-report-card li p { margin: 0.2rem 0 0; color: var(--text-muted); font-size: 0.7rem; }
 .foundry-report-card > small { display: block; color: var(--text-faint); font-size: 0.66rem; }
-.foundry-report-card code { color: var(--one-green-bright); }
+.foundry-report-card code { color: var(--one-green-bright); overflow-wrap: anywhere; }
 
 .foundry-persona-select { display: grid; width: min(480px, 100%); gap: 0.3rem; margin-bottom: 0.6rem; }
 .foundry-permission-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.45rem; }
