@@ -1,0 +1,77 @@
+import {
+  EFFORT_LEVEL,
+  MODEL_ID,
+} from "../../lib/domain/enums";
+import type { GatewayState } from "../../lib/domain/types";
+
+export const gateway: GatewayState = {
+  requestCount: 1_842,
+  successRate: 99.2,
+  p50LatencyMs: 412,
+  p95LatencyMs: 1_180,
+  errorRate: 0.8,
+  fallbackCount: 14,
+  budgetUsed: 68,
+  budgetLimit: 100,
+  modelMix: {
+    [MODEL_ID.OPUS]: 18,
+    [MODEL_ID.SONNET]: 62,
+    [MODEL_ID.HAIKU]: 20,
+  },
+  routeAudits: [],
+  recentRequests: [
+    {
+      id: "gw-0005",
+      occurredAt: "2026-09-02T13:54:00.000Z",
+      requesterUserId: "u_alexm",
+      provenance: "PREFLIGHT",
+      capability: "Executive briefing analysis",
+      sensitivity: "SYNTHETIC",
+      selectedModel: MODEL_ID.OPUS,
+      fallbackModel: MODEL_ID.SONNET,
+      effort: EFFORT_LEVEL.HIGH,
+      latencyMs: 1_042,
+      outcome: "SUCCEEDED",
+      policyExplanation: [
+        "Opus satisfies the requested capability.",
+        "Organization and Enterprise SE policies both allow Opus.",
+        "High effort is within both limits.",
+      ],
+    },
+    {
+      id: "gw-0004",
+      occurredAt: "2026-09-02T13:50:00.000Z",
+      requesterUserId: "u_jordan",
+      provenance: "PRESENTER",
+      capability: "Demo narrative generation",
+      sensitivity: "SYNTHETIC",
+      selectedModel: MODEL_ID.SONNET,
+      fallbackModel: MODEL_ID.HAIKU,
+      effort: EFFORT_LEVEL.STANDARD,
+      latencyMs: 418,
+      outcome: "SUCCEEDED",
+      policyExplanation: [
+        "Sonnet meets the requested quality and latency target.",
+        "Sales Engineer policy allows Sonnet.",
+      ],
+    },
+    {
+      id: "gw-0003",
+      occurredAt: "2026-09-02T13:46:00.000Z",
+      requesterUserId: "u_alexr",
+      provenance: "PREFLIGHT",
+      capability: "Wayne demo preflight",
+      sensitivity: "SYNTHETIC",
+      selectedModel: MODEL_ID.HAIKU,
+      fallbackModel: null,
+      effort: EFFORT_LEVEL.STANDARD,
+      latencyMs: 205,
+      outcome: "DENIED",
+      policyExplanation: [
+        "The runbook requires Sonnet.",
+        "Viewer policy permits only Haiku.",
+        "The gateway denied the request rather than silently changing entitlement.",
+      ],
+    },
+  ],
+};

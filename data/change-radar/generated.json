@@ -1,0 +1,1962 @@
+{
+  "schemaVersion": 1,
+  "sourceRegistryVersion": 1,
+  "framing": "Watches selected public documentation and status sources for meaningful changes. Detection does not automatically alter lab policy; a human reviews impact first.",
+  "generatedAt": "2026-09-02T19:33:26.784Z",
+  "summary": {
+    "totalSources": 8,
+    "successfulSources": 8,
+    "firstSeen": 0,
+    "unchanged": 7,
+    "changed": 1,
+    "unavailable": 0,
+    "requiresImpactReview": 0
+  },
+  "changes": [
+    {
+      "id": "documentation:claude-apps-release-notes",
+      "sourceId": "claude-apps-release-notes",
+      "sourceTitle": "Claude Apps release notes",
+      "sourceUrl": "https://support.claude.com/en/articles/12138966-release-notes",
+      "category": "Claude Apps",
+      "categories": [
+        "Claude Apps",
+        "Enterprise Admin",
+        "Identity / SSO / SCIM",
+        "Models and entitlements",
+        "Skills / plugins / connectors"
+      ],
+      "checkedAt": "2026-09-02T19:33:26.784Z",
+      "requiresHumanReview": true,
+      "officialSource": true,
+      "contextNote": null,
+      "changedAt": "2026-09-02T19:33:26.784Z",
+      "status": "CHANGED",
+      "previousHash": "766547129ad657e6ab32ab9890ce352e1f7d18102071e10b30997f1c1f34253e",
+      "currentHash": "f3df70c8649b21196830bac0c7ab1da9c5da24867306bce9e048fe2ef548f92b",
+      "lastKnownHash": "f3df70c8649b21196830bac0c7ab1da9c5da24867306bce9e048fe2ef548f92b",
+      "changedHeadings": [
+        "Release notes"
+      ],
+      "excerpt": "Observed: Updated yesterday",
+      "detectedImpactDomains": [
+        "demo readiness",
+        "enterprise administration",
+        "identity and access",
+        "model governance",
+        "agent capabilities"
+      ],
+      "impactLevel": "MEDIUM",
+      "confidence": 90,
+      "lastSuccessfulScanAt": "2026-09-02T19:33:26.784Z",
+      "observedHeadings": [
+        "Release notes",
+        "September 2026",
+        "September 1, 2026",
+        "August 2026",
+        "August 25, 2026",
+        "August 6, 2026",
+        "July 2026",
+        "July 24, 2026",
+        "July 14, 2026",
+        "July 10, 2026",
+        "July 9, 2026",
+        "July 7, 2026",
+        "July 1, 2026",
+        "June 2026",
+        "June 30, 2026",
+        "June 25, 2026",
+        "June 23, 2026",
+        "June 12, 2026",
+        "June 9, 2026",
+        "June 2, 2026",
+        "May 2026",
+        "May 28, 2026",
+        "May 21, 2026",
+        "April 2026",
+        "April 17, 2026",
+        "April 16, 2026",
+        "April 9, 2026",
+        "March 2026",
+        "March 25, 2026",
+        "March 23, 2026",
+        "March 17, 2026",
+        "March 12, 2026",
+        "March 11, 2026",
+        "March 2, 2026",
+        "February 2026",
+        "February 25, 2026",
+        "February 24, 2026",
+        "February 17, 2026",
+        "February 13, 2026",
+        "February 12, 2026"
+      ],
+      "headingDigests": [
+        {
+          "heading": "Document body",
+          "occurrence": 1,
+          "hash": "fb0be329eecde35172080a1d5dbd1f4af6138076b2c72277770e36dcb55eb6f9"
+        },
+        {
+          "heading": "Release notes",
+          "occurrence": 1,
+          "hash": "e2c7ceb33c2724c0e71d6c35804be18d3eb5be93f8589c75d66d1bc840c46bae"
+        },
+        {
+          "heading": "September 2026",
+          "occurrence": 1,
+          "hash": "6602024ed850d1e7b616b0c5514e1c36cb5e833d5540e53a5ddc4cd1f1bad5a4"
+        },
+        {
+          "heading": "September 1, 2026",
+          "occurrence": 1,
+          "hash": "39d55df32222eb7835f199d27bd49a364546bd70b283c60283a1a3cac65ede10"
+        },
+        {
+          "heading": "August 2026",
+          "occurrence": 1,
+          "hash": "b3d533835e8cbb1f079eda9ad7f885371fb80f049b70dfbb4587a6338ff8322f"
+        },
+        {
+          "heading": "August 25, 2026",
+          "occurrence": 1,
+          "hash": "7ca083c6b3de8f96ef67fedcd46ab132e1488ad92a3cacf2d8abef4b1ff447d9"
+        },
+        {
+          "heading": "August 6, 2026",
+          "occurrence": 1,
+          "hash": "42e318b4c3945d77c2fd859fc78797f6c6beaa161cb01e904cd8965cf1eaddff"
+        },
+        {
+          "heading": "July 2026",
+          "occurrence": 1,
+          "hash": "887242f042217f073401061acf9c8bd083d10830b21515151e5693235516793a"
+        },
+        {
+          "heading": "July 24, 2026",
+          "occurrence": 1,
+          "hash": "3ac3462d6009d906eb03f6da13422670ce33a5a42f17bbf3c90f0d4c380aa6e0"
+        },
+        {
+          "heading": "July 14, 2026",
+          "occurrence": 1,
+          "hash": "4105f8f2a3880c18680736a83a6874d5e5709476996bb398d0ababea61ce1faf"
+        },
+        {
+          "heading": "July 10, 2026",
+          "occurrence": 1,
+          "hash": "caf28dac41c9ab77315d3739ee3b9bd074c09a541c3c267424e77b1c071b1b1f"
+        },
+        {
+          "heading": "July 9, 2026",
+          "occurrence": 1,
+          "hash": "3c93175d6f8686346d3b392533fd2297282c943b31e3caa8f36034cfc3cd7b75"
+        },
+        {
+          "heading": "July 7, 2026",
+          "occurrence": 1,
+          "hash": "2d084c8a33e9c6eeb51361d3958e6c09b802e74e5b6273cf9cdd85cd8436c46b"
+        },
+        {
+          "heading": "July 1, 2026",
+          "occurrence": 1,
+          "hash": "00eefbb14d98b17e681fb73082c5a9b8ef3b97bb7a1c5d40f597c8933d4cd916"
+        },
+        {
+          "heading": "June 2026",
+          "occurrence": 1,
+          "hash": "5d057c13752f237df76dd657d24e47339336bdbc04ae5ce1329a61a22970b50f"
+        },
+        {
+          "heading": "June 30, 2026",
+          "occurrence": 1,
+          "hash": "1a5edeedd18c04b0e7cd5292a3eb5095a0d8aa8c908a009fd3c7573fb6fd302f"
+        },
+        {
+          "heading": "June 25, 2026",
+          "occurrence": 1,
+          "hash": "6c547b194857d6df5b1bc15038f8aeace228160840a6221e842ba64539f559ab"
+        },
+        {
+          "heading": "June 23, 2026",
+          "occurrence": 1,
+          "hash": "782bdc977719b6f30ff8164f65c674ac4d4288a76439bab85102ac5848f6b7cd"
+        },
+        {
+          "heading": "June 12, 2026",
+          "occurrence": 1,
+          "hash": "e509e5a0f245b90e1e0eb9f65210403cc1b3726f9615d34541a7930339c77cad"
+        },
+        {
+          "heading": "June 9, 2026",
+          "occurrence": 1,
+          "hash": "7263b47a4b502eacbb98f64af55b686a4fb949c754873ab024ebf08ea33add70"
+        },
+        {
+          "heading": "June 2, 2026",
+          "occurrence": 1,
+          "hash": "e6ad37402fbf69d26e9c57ab621707d2adce921ff2013255e1dd0c260cf07fa0"
+        },
+        {
+          "heading": "May 2026",
+          "occurrence": 1,
+          "hash": "3b7652abf347e357a589077fd2faafe0711d47bb148e169d9d7730995d00baee"
+        },
+        {
+          "heading": "May 28, 2026",
+          "occurrence": 1,
+          "hash": "557759f909ea6393c4303aaf8e32492913c7e3ddcc5438f846552a54af15a882"
+        },
+        {
+          "heading": "May 21, 2026",
+          "occurrence": 1,
+          "hash": "432eeac037f37e0758f12abedbce6edfed518f0f5c5ff7799ccb24ec6419bf24"
+        },
+        {
+          "heading": "April 2026",
+          "occurrence": 1,
+          "hash": "e8b8c20b1865c2ad462c3be1e99193eaaba9e1182c5c02308b92b2e7403b6625"
+        },
+        {
+          "heading": "April 17, 2026",
+          "occurrence": 1,
+          "hash": "a508da720b86a31e8748a9403e7b550174f1ac83fa0e4ef5fd4347330bea241e"
+        },
+        {
+          "heading": "April 16, 2026",
+          "occurrence": 1,
+          "hash": "ac92d4243501f5de70e507d96ba5951da953bc4256f474ed04608d31f580261c"
+        },
+        {
+          "heading": "April 9, 2026",
+          "occurrence": 1,
+          "hash": "0d91303bd4b4a38c3d87f2a139b44662c1980c97a97debb479845e1159a988a5"
+        },
+        {
+          "heading": "March 2026",
+          "occurrence": 1,
+          "hash": "5d4160b4d99a500c73f35053ec4e7461b6a2d76505149f5607cd8ebad1b85071"
+        },
+        {
+          "heading": "March 25, 2026",
+          "occurrence": 1,
+          "hash": "e3651251154a127457a28c94268b6af21fd4fc7f591452c4ed4e3fd2bd058cf2"
+        },
+        {
+          "heading": "March 23, 2026",
+          "occurrence": 1,
+          "hash": "0cfe51b346b873badc45d3a1e341bed2952edb6635bda01ae398f00b14697d06"
+        },
+        {
+          "heading": "March 17, 2026",
+          "occurrence": 1,
+          "hash": "b7d41982608fe4dd00e62ce6b9b4cb06b508f1ea8cf860fc3356c9c020cf35e1"
+        },
+        {
+          "heading": "March 12, 2026",
+          "occurrence": 1,
+          "hash": "31e83a815c7fae77385256f7302f3d8b4630587935cd251152657453d112406a"
+        },
+        {
+          "heading": "March 11, 2026",
+          "occurrence": 1,
+          "hash": "02993f625cfb0888b0f235c3f9dcdd35202ef11f43e360120b14590a34cb63a7"
+        },
+        {
+          "heading": "March 2, 2026",
+          "occurrence": 1,
+          "hash": "3a4230775f2674db3e80282afa66a0b997b6454c620a28efe6b5e578ecbfc92a"
+        },
+        {
+          "heading": "February 2026",
+          "occurrence": 1,
+          "hash": "6fa0b94f87f7a333692ae4c9256a6dc156404e7c88c47c13f355ea31dcdb7bd4"
+        },
+        {
+          "heading": "February 25, 2026",
+          "occurrence": 1,
+          "hash": "ec3b939926a4b5199ff3fa2a88673590c159054f2c8469fd1887b0a9c9a1495b"
+        },
+        {
+          "heading": "February 24, 2026",
+          "occurrence": 1,
+          "hash": "fca66dff49fbe44d197809b33101bc827ddb2b139477b3486b716a426c97c0ad"
+        },
+        {
+          "heading": "February 17, 2026",
+          "occurrence": 1,
+          "hash": "a8e1cb904c06a24ec1c3fc2b97b22defc5c3d361d33639d2c6d8e3e2a9b3681e"
+        },
+        {
+          "heading": "February 13, 2026",
+          "occurrence": 1,
+          "hash": "d33d05e05f36a41205466db8df28c2fe18ecd22835de0460f593ddd07f463b11"
+        },
+        {
+          "heading": "February 12, 2026",
+          "occurrence": 1,
+          "hash": "f1ac455db30860b90e75b91e5440384c98a08fc45772f6e98847bd7512143599"
+        },
+        {
+          "heading": "February 5, 2026",
+          "occurrence": 1,
+          "hash": "f644fac3635ba8d21cce7a75f31270d34545aefd9860e5e24269e4a34751d64c"
+        },
+        {
+          "heading": "January 2026",
+          "occurrence": 1,
+          "hash": "aa9c232e1582f9f8f76960a95608fae00e8de3968d7719cce7d26211653d82ec"
+        },
+        {
+          "heading": "January 16, 2026",
+          "occurrence": 1,
+          "hash": "bf947b5717b5e904a3ec749451517872e2d6a54d3636ab44dfc462b00449e9dc"
+        },
+        {
+          "heading": "January 12, 2026",
+          "occurrence": 1,
+          "hash": "cbd49971311f3207117501a15690ede3f28b35ac2d3273dd48647ffc7bcf74be"
+        },
+        {
+          "heading": "December 2025",
+          "occurrence": 1,
+          "hash": "1fda70809e723931c419ec1b1bb9f0314c2477afdf2755ac1470d07c3b2461fd"
+        },
+        {
+          "heading": "December 18, 2025",
+          "occurrence": 1,
+          "hash": "948a31010d2fecfe54b3ece5fad29655febb3ead925b95ae331872c860650b52"
+        },
+        {
+          "heading": "November 2025",
+          "occurrence": 1,
+          "hash": "e62c6ae78b3c2f878cb23198f2ff2205dc80286e12612f0f86c7d2e7191a2e12"
+        },
+        {
+          "heading": "November 24, 2025",
+          "occurrence": 1,
+          "hash": "14e9d9711315b8c35f2d1c463d2a1c7c71d704d70ebc3cdad5cfe61f12a892c8"
+        },
+        {
+          "heading": "October 2025",
+          "occurrence": 1,
+          "hash": "5a83da9cd30e752e30ddab7294177c37f950935fa4c357e0d3132d59759bd571"
+        },
+        {
+          "heading": "October 23, 2025",
+          "occurrence": 1,
+          "hash": "dfadcec4d2e87259cc3358703a1523fdf50fc0c4dfb0f1d5505b377830cac72b"
+        },
+        {
+          "heading": "October 15, 2025",
+          "occurrence": 1,
+          "hash": "0e24807d6bc420688af372353fb104e30941b7cd2655313e8b1833d138af128f"
+        },
+        {
+          "heading": "September 2025",
+          "occurrence": 1,
+          "hash": "9e8e5142a45c2ac3ce8ec93820577dafa53bb2eef7f09610e4764353a407ebc8"
+        },
+        {
+          "heading": "September 29, 2025",
+          "occurrence": 1,
+          "hash": "3cffbdaca44e59409cf12021b76a99541e57ed53e62dc475ee4f6371f1ee2d4b"
+        },
+        {
+          "heading": "September 18, 2025",
+          "occurrence": 1,
+          "hash": "bde9ba097e18714449cc2f92aa18ce70bb2cf935cdbad72dbaf3412877377ae0"
+        },
+        {
+          "heading": "September 16, 2025",
+          "occurrence": 1,
+          "hash": "c18f9e1452be82a22b22b1001a85d916f7b54da08a9e6e8d52dd5441a8e29bf2"
+        },
+        {
+          "heading": "September 11, 2025",
+          "occurrence": 1,
+          "hash": "73a2c0b67933dad1f35c40eefbcb47e023c908a9dc65b3e14ba7054afe642aab"
+        },
+        {
+          "heading": "September 9, 2025",
+          "occurrence": 1,
+          "hash": "52157b6cec874186d333854257a871650f412355d5e2b9cb4fd727fbbe545b7c"
+        },
+        {
+          "heading": "September 3, 2025",
+          "occurrence": 1,
+          "hash": "afe0698e96f7feae169a847ced95223d9dfd11077aba1ab1993019142d7298d7"
+        },
+        {
+          "heading": "August 2025",
+          "occurrence": 1,
+          "hash": "7cb70393e3021772dc2706d7de9060e8b759d752dece10d06ac967b5aeaac7a2"
+        }
+      ],
+      "availabilityReason": null,
+      "httpMetadata": {
+        "etag": null,
+        "lastModified": null,
+        "finalUrl": "https://support.claude.com/en/articles/12138966-release-notes",
+        "statusCode": 200,
+        "redirectCount": 0
+      }
+    },
+    {
+      "id": "documentation:claude-platform-release-notes",
+      "sourceId": "claude-platform-release-notes",
+      "sourceTitle": "Claude Platform / API release notes",
+      "sourceUrl": "https://platform.claude.com/docs/en/release-notes/overview",
+      "category": "Claude Platform / API",
+      "categories": [
+        "Claude Platform / API",
+        "Models and entitlements",
+        "MCP",
+        "Safety / governance / compliance"
+      ],
+      "checkedAt": "2026-09-02T19:33:26.784Z",
+      "requiresHumanReview": true,
+      "officialSource": true,
+      "contextNote": null,
+      "changedAt": "2026-09-02T16:45:13.457Z",
+      "status": "UNCHANGED",
+      "previousHash": "2850f8862888b6a6f3e1333e2d86ed856c87337c04527b56846b6e30b1c5c30c",
+      "currentHash": "2850f8862888b6a6f3e1333e2d86ed856c87337c04527b56846b6e30b1c5c30c",
+      "lastKnownHash": "2850f8862888b6a6f3e1333e2d86ed856c87337c04527b56846b6e30b1c5c30c",
+      "changedHeadings": [],
+      "excerpt": null,
+      "detectedImpactDomains": [
+        "AI gateway",
+        "model routing",
+        "model governance",
+        "tool interoperability",
+        "safety controls"
+      ],
+      "impactLevel": "HIGH",
+      "confidence": 100,
+      "lastSuccessfulScanAt": "2026-09-02T19:33:26.784Z",
+      "observedHeadings": [
+        "Claude Platform release notes",
+        "September 1, 2026 ",
+        "August 27, 2026 ",
+        "August 26, 2026 ",
+        "August 20, 2026 ",
+        "August 19, 2026 ",
+        "August 18, 2026 ",
+        "August 11, 2026 ",
+        "August 10, 2026 ",
+        "August 7, 2026 ",
+        "August 5, 2026 ",
+        "August 3, 2026 ",
+        "August 1, 2026 ",
+        "July 24, 2026 ",
+        "July 22, 2026 ",
+        "July 17, 2026 ",
+        "July 15, 2026 ",
+        "July 14, 2026 ",
+        "July 10, 2026 ",
+        "July 8, 2026 ",
+        "July 2, 2026 ",
+        "July 1, 2026 ",
+        "June 30, 2026 ",
+        "June 29, 2026 ",
+        "June 26, 2026 ",
+        "June 25, 2026 ",
+        "June 22, 2026 ",
+        "June 18, 2026 ",
+        "June 15, 2026 ",
+        "June 11, 2026 ",
+        "June 10, 2026 ",
+        "June 9, 2026 ",
+        "June 5, 2026 ",
+        "June 2, 2026 ",
+        "May 29, 2026 ",
+        "May 28, 2026 ",
+        "May 27, 2026 ",
+        "May 19, 2026 ",
+        "May 18, 2026 ",
+        "May 13, 2026 "
+      ],
+      "headingDigests": [
+        {
+          "heading": "Document body",
+          "occurrence": 1,
+          "hash": "f647e5f1b69189049166462411e3fe87f600c40cbc90d5fc328cf844e65b406d"
+        },
+        {
+          "heading": "Claude Platform release notes",
+          "occurrence": 1,
+          "hash": "6987e8121ad2bf706952fcf6384a554e0b3f8f06cca7a8e3c0e3eeaf04c94e11"
+        },
+        {
+          "heading": "September 1, 2026 ",
+          "occurrence": 1,
+          "hash": "fbd350ba8f95f7c481e6e1949379889fada7586db498a1424fae4ed776f1ac78"
+        },
+        {
+          "heading": "August 27, 2026 ",
+          "occurrence": 1,
+          "hash": "f1e1ce6a26b5c72bc8bb31b0a391bfa760feb04b3f907db8d83b1d2c30c65e8d"
+        },
+        {
+          "heading": "August 26, 2026 ",
+          "occurrence": 1,
+          "hash": "dd0d3495d61ae4811c9594b4d8ede529c93c5c620d1e0c0f0f9d11930c60180c"
+        },
+        {
+          "heading": "August 20, 2026 ",
+          "occurrence": 1,
+          "hash": "323c52e00e552a8fede6f1167527c4645e722fb86be83a03e6d8c9fa032e6645"
+        },
+        {
+          "heading": "August 19, 2026 ",
+          "occurrence": 1,
+          "hash": "0fc2d2342d543fbc5031d56ca7bde05f177ed9a97bfa3468291fdbb259d7349e"
+        },
+        {
+          "heading": "August 18, 2026 ",
+          "occurrence": 1,
+          "hash": "c93999df108bc83c493c774c4cfe6bbb42b1067b5ded3c622e151726584e4cc4"
+        },
+        {
+          "heading": "August 11, 2026 ",
+          "occurrence": 1,
+          "hash": "5cde7d8cce874fc51b8f992dc1f9031d12d195a11990c46d055fff1f7cce42b2"
+        },
+        {
+          "heading": "August 10, 2026 ",
+          "occurrence": 1,
+          "hash": "661645663ba0a6278fef38e9988760b2b9c9ceb6ae2978daaf79605bb5182a95"
+        },
+        {
+          "heading": "August 7, 2026 ",
+          "occurrence": 1,
+          "hash": "e6de6bf305a821cdb1021d3b2f75f03ddd6f027626a5eff3e0071173fccb9a98"
+        },
+        {
+          "heading": "August 5, 2026 ",
+          "occurrence": 1,
+          "hash": "3bec120f648b625d0e3d3069d527613c7c78d33c892dacee6ff3fe2d0c7280de"
+        },
+        {
+          "heading": "August 3, 2026 ",
+          "occurrence": 1,
+          "hash": "8a42830b8237e9668ed50ae0f985bb5eb9b63f7c9a3b7c89daef327d3ecde684"
+        },
+        {
+          "heading": "August 1, 2026 ",
+          "occurrence": 1,
+          "hash": "611dbad58c67408d96e39c7eb133ed17ed76972174a5ec55c73fa0709f66f532"
+        },
+        {
+          "heading": "July 24, 2026 ",
+          "occurrence": 1,
+          "hash": "f251f81c88056479156f57ae1bc2f206fc0f3d4a0d38d7e638d343a3c95d6ec2"
+        },
+        {
+          "heading": "July 22, 2026 ",
+          "occurrence": 1,
+          "hash": "336048a4531f2ae1e2c647a62b38e5af2cf9057c4564087dc342f3170aafe89c"
+        },
+        {
+          "heading": "July 17, 2026 ",
+          "occurrence": 1,
+          "hash": "9a15f5e9e621e24670d476a45c926e5b2eb66dbe781756d6ae8629e3d6144ee0"
+        },
+        {
+          "heading": "July 15, 2026 ",
+          "occurrence": 1,
+          "hash": "05269c7f6d4e36574df21e6e6f8f86216dd797fa4077a3c6ec4ad3eeaf44ae15"
+        },
+        {
+          "heading": "July 14, 2026 ",
+          "occurrence": 1,
+          "hash": "a52695777ca360eb782815af8d7513351da95df0ffaf5cd197237bb2dc89e716"
+        },
+        {
+          "heading": "July 10, 2026 ",
+          "occurrence": 1,
+          "hash": "779670e7fb98bc23b3ecb5569e9d466ccee3243c2e783c7dc4dc1abef6bb5bc8"
+        },
+        {
+          "heading": "July 8, 2026 ",
+          "occurrence": 1,
+          "hash": "2c2c6f255265b1aa1c12cc1bfc3923cd8e01291c70e96732fff18e9328af9713"
+        },
+        {
+          "heading": "July 2, 2026 ",
+          "occurrence": 1,
+          "hash": "42ae5790e8e8134402e6b518a15a06620837640ab0e5b1bb04cf95468520c76f"
+        },
+        {
+          "heading": "July 1, 2026 ",
+          "occurrence": 1,
+          "hash": "afead165b52e7d837f33c58049d475c1bf756575bb69f091613c6ff25237ba83"
+        },
+        {
+          "heading": "June 30, 2026 ",
+          "occurrence": 1,
+          "hash": "463f3dcf6402461136af07f02b77e10e065d59f1915f35a9d94a527ce84d2abd"
+        },
+        {
+          "heading": "June 29, 2026 ",
+          "occurrence": 1,
+          "hash": "d1b27584dc8d953f578abaec898fda3491b597f748d02947547171feabd61bbe"
+        },
+        {
+          "heading": "June 26, 2026 ",
+          "occurrence": 1,
+          "hash": "eff59def5b414fa4e2b593291b517233b981c1cd95b468af10ef33e78e5fcd13"
+        },
+        {
+          "heading": "June 25, 2026 ",
+          "occurrence": 1,
+          "hash": "f213da05b4ebb6acd408444b9e53018c4789b4103f09f6367ce0edfcbf737097"
+        },
+        {
+          "heading": "June 22, 2026 ",
+          "occurrence": 1,
+          "hash": "e7be66298ebe185b9f2a05baac5aad734e87ba68ca63399c3275a62e758678bb"
+        },
+        {
+          "heading": "June 18, 2026 ",
+          "occurrence": 1,
+          "hash": "b1039a93a5621ddd7a21e16950993f49c1cee8536f429c603cb1efb23d9db084"
+        },
+        {
+          "heading": "June 15, 2026 ",
+          "occurrence": 1,
+          "hash": "e8f600645048706da3023731fee0491154ef0a3532266bc3d202c12640d938f2"
+        },
+        {
+          "heading": "June 11, 2026 ",
+          "occurrence": 1,
+          "hash": "ce809656ccb2dd19f51a0825d5fe9b15e18d122b1c53663ba3f565fa5d5174f6"
+        },
+        {
+          "heading": "June 10, 2026 ",
+          "occurrence": 1,
+          "hash": "48863476a3266ea707d3bbcdc2ceba6aa9d70d970dc20f8d16befb7433170a56"
+        },
+        {
+          "heading": "June 9, 2026 ",
+          "occurrence": 1,
+          "hash": "22eafe827457a3a51cae978efeb24ea06fc9a2c30b42955496b370c3e2a49acc"
+        },
+        {
+          "heading": "June 5, 2026 ",
+          "occurrence": 1,
+          "hash": "d43d4ebd1ddb4e97c1c6aff8b714e4be2b5ad354fd7313a0a39faacb4c742d6d"
+        },
+        {
+          "heading": "June 2, 2026 ",
+          "occurrence": 1,
+          "hash": "bcbb356dee550bd1a192b53154c2d91bc5b0637d6d846a4ae807fb008c194a13"
+        },
+        {
+          "heading": "May 29, 2026 ",
+          "occurrence": 1,
+          "hash": "0c11f92f8a5a38c82212d0b0402ced321e39febbe23a00d18fb1a39107a04b29"
+        },
+        {
+          "heading": "May 28, 2026 ",
+          "occurrence": 1,
+          "hash": "ac3b16b89f6fd4aceb735a3f900bf1bca674f4c49b2caf63a582b1d5bbf5e08e"
+        },
+        {
+          "heading": "May 27, 2026 ",
+          "occurrence": 1,
+          "hash": "e9ceea75a0111b4243020b485f69396247bda979b0556f1f2e708c1f341c2a2e"
+        },
+        {
+          "heading": "May 19, 2026 ",
+          "occurrence": 1,
+          "hash": "0b8675371c1eb674339b9ac89381fd44efd8b69322a2d7b95cbee867299a333e"
+        },
+        {
+          "heading": "May 18, 2026 ",
+          "occurrence": 1,
+          "hash": "2fb4d605b83f71d178c61af5f3fccab2e5f773900c1c20ad1452a8f35e950a5b"
+        },
+        {
+          "heading": "May 13, 2026 ",
+          "occurrence": 1,
+          "hash": "0340e3847454b1800c030554a97f8c27f831ca60cd976764616eadb04ac2e78a"
+        },
+        {
+          "heading": "May 12, 2026 ",
+          "occurrence": 1,
+          "hash": "e232285dae814c7548bae889d52079278f5e76074a2feb94c13852194f7ffc3e"
+        },
+        {
+          "heading": "May 11, 2026 ",
+          "occurrence": 1,
+          "hash": "40e4a7ca27a4817eeabf33dfe38456e73028215101671279a56164a6cd7026ed"
+        },
+        {
+          "heading": "May 6, 2026 ",
+          "occurrence": 1,
+          "hash": "4e51e711ae3683f05276068956d9de8f67b2828c8d120d8ded2a44c4188bff05"
+        },
+        {
+          "heading": "May 4, 2026 ",
+          "occurrence": 1,
+          "hash": "ca8d602382508bc1c3d6c40ddb63d0cc8f7f98dc4fcc9305001557cbecc374a1"
+        },
+        {
+          "heading": "April 30, 2026 ",
+          "occurrence": 1,
+          "hash": "a96b3c945c9592c2302179139e343589c10dc1dae52a65d6f403b4f0916834a4"
+        },
+        {
+          "heading": "April 29, 2026 ",
+          "occurrence": 1,
+          "hash": "250111f9557ba57ea0c04869d05623962feddefa60ff4e3dcd61d7ca42b5ac44"
+        },
+        {
+          "heading": "April 24, 2026 ",
+          "occurrence": 1,
+          "hash": "c4ce0a382c6bb087cda364794d9053696102eb144563747b293757cbd2a3f002"
+        },
+        {
+          "heading": "April 23, 2026 ",
+          "occurrence": 1,
+          "hash": "80f2d8a9a23b3a39405c3b2db84b19b35cf2564424183727d47d7a2d1f84efd6"
+        },
+        {
+          "heading": "April 20, 2026 ",
+          "occurrence": 1,
+          "hash": "119809c53e7379b30f4b6b0ad5b3f48653d0b26d48b71c0bfbc81b3f304af31d"
+        },
+        {
+          "heading": "April 16, 2026 ",
+          "occurrence": 1,
+          "hash": "8dca4afee1a19d7926ce3a2e579b0777057167394eab4bb662ba94b1844c6eae"
+        },
+        {
+          "heading": "April 14, 2026 ",
+          "occurrence": 1,
+          "hash": "ff9d240be166baf4c77a7f760aca54ce7663bd603bdc9864b5db8b3fbbeb5ca7"
+        },
+        {
+          "heading": "April 9, 2026 ",
+          "occurrence": 1,
+          "hash": "d5adc5321d3231d9a1183a37c306b8d4b665557009d323f9c6bf9db3439551ed"
+        },
+        {
+          "heading": "April 8, 2026 ",
+          "occurrence": 1,
+          "hash": "fea3c7fe46f8afed5828bae51276a70444e638f881ab9aae88d18e2e0eb7b45f"
+        },
+        {
+          "heading": "April 7, 2026 ",
+          "occurrence": 1,
+          "hash": "a796a5f75c0abe4c148fdabb5e7a15bbae76806d5969cfee69c516652f69abcc"
+        },
+        {
+          "heading": "March 30, 2026 ",
+          "occurrence": 1,
+          "hash": "e4cf461bcc54b205ae5e4104eed4a4c231969d54842d3cacd488a0477e3fe7a9"
+        },
+        {
+          "heading": "March 18, 2026 ",
+          "occurrence": 1,
+          "hash": "e3888ccfbb2bce64d6a9f48e94f1b7e57b8bfb1d457eb23bd17409525303ae1e"
+        },
+        {
+          "heading": "March 16, 2026 ",
+          "occurrence": 1,
+          "hash": "3d58081d206355e0633050be0e1ff8877ca8195c70a72f466870f7d5f7bc3923"
+        },
+        {
+          "heading": "March 13, 2026 ",
+          "occurrence": 1,
+          "hash": "d7497991d31f71a7e8325254d4c347153a4f09af744deb3b0999da827e1bee52"
+        },
+        {
+          "heading": "February 19, 2026 ",
+          "occurrence": 1,
+          "hash": "03da8944cae07bbfff6eb0a2eda3bbc355c8b4dc9ff460ded2ff00457e040327"
+        }
+      ],
+      "availabilityReason": null,
+      "httpMetadata": {
+        "etag": null,
+        "lastModified": null,
+        "finalUrl": "https://platform.claude.com/docs/en/release-notes/overview",
+        "statusCode": 200,
+        "redirectCount": 0
+      }
+    },
+    {
+      "id": "documentation:claude-code-changelog",
+      "sourceId": "claude-code-changelog",
+      "sourceTitle": "Claude Code changelog",
+      "sourceUrl": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md",
+      "category": "Claude Code",
+      "categories": [
+        "Claude Code",
+        "Skills / plugins / connectors",
+        "MCP"
+      ],
+      "checkedAt": "2026-09-02T19:33:26.784Z",
+      "requiresHumanReview": true,
+      "officialSource": true,
+      "contextNote": null,
+      "changedAt": "2026-09-02T15:36:02.277Z",
+      "status": "UNCHANGED",
+      "previousHash": "82b5850b801c3ef50d29100f7e85724b4021e4e402fb8d0794b74ba48d4b3f17",
+      "currentHash": "82b5850b801c3ef50d29100f7e85724b4021e4e402fb8d0794b74ba48d4b3f17",
+      "lastKnownHash": "82b5850b801c3ef50d29100f7e85724b4021e4e402fb8d0794b74ba48d4b3f17",
+      "changedHeadings": [],
+      "excerpt": null,
+      "detectedImpactDomains": [
+        "operator tooling",
+        "agent capabilities",
+        "tool interoperability"
+      ],
+      "impactLevel": "MEDIUM",
+      "confidence": 100,
+      "lastSuccessfulScanAt": "2026-09-02T19:33:26.784Z",
+      "observedHeadings": [
+        "Changelog",
+        "2.1.258",
+        "2.1.257",
+        "2.1.252",
+        "2.1.251",
+        "2.1.250",
+        "2.1.248",
+        "2.1.247",
+        "2.1.246",
+        "2.1.245",
+        "2.1.243",
+        "2.1.241",
+        "2.1.240",
+        "2.1.239",
+        "2.1.238",
+        "2.1.237",
+        "2.1.236",
+        "2.1.235",
+        "2.1.234",
+        "2.1.233",
+        "2.1.223",
+        "2.1.222",
+        "2.1.221",
+        "2.1.220",
+        "2.1.219",
+        "2.1.218",
+        "2.1.217",
+        "2.1.216",
+        "2.1.215",
+        "2.1.214",
+        "2.1.212",
+        "2.1.211",
+        "2.1.210",
+        "2.1.209",
+        "2.1.208",
+        "2.1.206",
+        "2.1.205",
+        "2.1.204",
+        "2.1.203",
+        "2.1.202"
+      ],
+      "headingDigests": [
+        {
+          "heading": "Changelog",
+          "occurrence": 1,
+          "hash": "5d05762be8b15fbf69cdb8f9c6360131e23b706614c6f4215622d99d7a5b132a"
+        },
+        {
+          "heading": "2.1.258",
+          "occurrence": 1,
+          "hash": "abe16865fc5b7eb5db07579c9433ec8e0e659eecf7461e62ab039c98868f17d6"
+        },
+        {
+          "heading": "2.1.257",
+          "occurrence": 1,
+          "hash": "31399f592d26bff71b4c4ce114edc3e16d47fe2466ae3691463fb7a4b4aadfae"
+        },
+        {
+          "heading": "2.1.252",
+          "occurrence": 1,
+          "hash": "ff4b6266dd8091d9a59e6b10020d61dfceb6b1e9ee029850278a37c93945b000"
+        },
+        {
+          "heading": "2.1.251",
+          "occurrence": 1,
+          "hash": "8a1c12bc116033fa3066bc230c90790a1b5265211767925c043223a540b358f7"
+        },
+        {
+          "heading": "2.1.250",
+          "occurrence": 1,
+          "hash": "4a72d5677159b83c537f3bfebba6ce3576227bf540e25e5342ea32ed935ef5d1"
+        },
+        {
+          "heading": "2.1.248",
+          "occurrence": 1,
+          "hash": "353028ecc56e140b4079f35dda25322b95aaed8c84100e6997c74c02126ba391"
+        },
+        {
+          "heading": "2.1.247",
+          "occurrence": 1,
+          "hash": "c19b5fa33fed901a989334e285ed0ded814c8bfda6b2cec05efdaa5341b62f05"
+        },
+        {
+          "heading": "2.1.246",
+          "occurrence": 1,
+          "hash": "88d4fd3e0acf572be0af4e915f1b15d1f300e74c54205f489d3d7eb9cac195f8"
+        },
+        {
+          "heading": "2.1.245",
+          "occurrence": 1,
+          "hash": "d3a2071421df01f75dcae8cf4ec93e6f763e2a0ac37d852f79465b6b4ff361a1"
+        },
+        {
+          "heading": "2.1.243",
+          "occurrence": 1,
+          "hash": "23954d4b2d2b03f79fde30788eabbb44c7bf438cec704f6c97820dff6702d4c4"
+        },
+        {
+          "heading": "2.1.241",
+          "occurrence": 1,
+          "hash": "ec66b18e621ae8aef940ffc51998cb0691e2771f63106aac0c0669192b2d8cf6"
+        },
+        {
+          "heading": "2.1.240",
+          "occurrence": 1,
+          "hash": "8f75fcb7cea279d16aba6e153531a2d0c946eb327b3f58b1fecd886d5659deac"
+        },
+        {
+          "heading": "2.1.239",
+          "occurrence": 1,
+          "hash": "c84811a0c6eeac1734c4cb213e5693ebd13ec274f49edbaaacf3727327137ee0"
+        },
+        {
+          "heading": "2.1.238",
+          "occurrence": 1,
+          "hash": "00b1528a745b8d69631029ea64cde633a8c6c558fff58112fae405f0023714dc"
+        },
+        {
+          "heading": "2.1.237",
+          "occurrence": 1,
+          "hash": "dec2a90c114188a51e0b02030877213c9bcbf7a7ea1e1854a048339196c6f042"
+        },
+        {
+          "heading": "2.1.236",
+          "occurrence": 1,
+          "hash": "2e52cdd904c92407dbe9231282e28fe855b8c11aa25930fee81710165e540e7f"
+        },
+        {
+          "heading": "2.1.235",
+          "occurrence": 1,
+          "hash": "4a8aff16c3f686496f83ba9307e321cd57fbbcfb179afe7814b4d4eb48776357"
+        },
+        {
+          "heading": "2.1.234",
+          "occurrence": 1,
+          "hash": "7261ff4c05880b04a9d9b00d7706e43a78973b5871c03eb09c2df21e993a6f1f"
+        },
+        {
+          "heading": "2.1.233",
+          "occurrence": 1,
+          "hash": "3c0db6359f023ac3f44c07150bc93dd6c9340e2bd2d79c0e7f3287ec69c60460"
+        },
+        {
+          "heading": "2.1.223",
+          "occurrence": 1,
+          "hash": "9474354f93215753159006f5815e47b7f5178399322b5cb48147b7b35f529c0d"
+        },
+        {
+          "heading": "2.1.222",
+          "occurrence": 1,
+          "hash": "373138ca283e91102658a6300719cab72f778d03e25f27cea25dfc44fe3c8acb"
+        },
+        {
+          "heading": "2.1.221",
+          "occurrence": 1,
+          "hash": "2527c6f32e9a0c69af2b206c32e89a33c759aa7be6bf8d4a21cd6ecb5cfa8b92"
+        },
+        {
+          "heading": "2.1.220",
+          "occurrence": 1,
+          "hash": "2b9f55509e6dc7792cb31be8c4af60be7c86e2f240d46cf8029eb3c6fc16bf16"
+        },
+        {
+          "heading": "2.1.219",
+          "occurrence": 1,
+          "hash": "5d46ef56df0e7b767d2602feb5122bcd3d6e54beece193edf3df9b8961a0637e"
+        },
+        {
+          "heading": "2.1.218",
+          "occurrence": 1,
+          "hash": "f623e668bc77d981cbceee03894b32bc6219fbc6287522030206c6f95c851364"
+        },
+        {
+          "heading": "2.1.217",
+          "occurrence": 1,
+          "hash": "68ca23c77f34fbe660d0445f42c165d19970204074db5083650ee46990666f8c"
+        },
+        {
+          "heading": "2.1.216",
+          "occurrence": 1,
+          "hash": "40e276772d624ce2b77339e00200bc83ecfb7d84a388d448cbb85fc63a445135"
+        },
+        {
+          "heading": "2.1.215",
+          "occurrence": 1,
+          "hash": "30c1be2fce566789e1f7116f42c24ea57132d0f89b54acb74ae55fed007f1b69"
+        },
+        {
+          "heading": "2.1.214",
+          "occurrence": 1,
+          "hash": "fc2c1d78fd51667ec735b783cd3ae7733b1172aef9e9d1c5ca4a8f49d386b6b5"
+        },
+        {
+          "heading": "2.1.212",
+          "occurrence": 1,
+          "hash": "01dceb069e79125ff70ab579928a107a20c871ec5a6d86e1f62f016f95c72f76"
+        },
+        {
+          "heading": "2.1.211",
+          "occurrence": 1,
+          "hash": "48e52fe50f0a66e242d731095909139c81edd6e2f841e1bf59ce8eb579abb930"
+        },
+        {
+          "heading": "2.1.210",
+          "occurrence": 1,
+          "hash": "d4a0f93e5b96bcea7457d74247e1fd5a8397e5ced7e6081496012c936c2b893f"
+        },
+        {
+          "heading": "2.1.209",
+          "occurrence": 1,
+          "hash": "ebf6c7af446299b12d670e20ff9f8b36da1865db4d7573ba747774a6d18f2aaf"
+        },
+        {
+          "heading": "2.1.208",
+          "occurrence": 1,
+          "hash": "86b989200cea04d903a854020edec82024e01fcfd5bc99e9a088c28f17f6e403"
+        },
+        {
+          "heading": "2.1.206",
+          "occurrence": 1,
+          "hash": "bf3461480e7cd2b82dfea82c212aa4d7f62b26fe1bc674b5fe90cbdbe1182404"
+        },
+        {
+          "heading": "2.1.205",
+          "occurrence": 1,
+          "hash": "8392e9ff133b42d99e4363239cad746d4a967fab454abcd9b0994bfb2b428873"
+        },
+        {
+          "heading": "2.1.204",
+          "occurrence": 1,
+          "hash": "b2925212bc05d22cce7d959fe840db5a068be7651180391cf519107b86f148a7"
+        },
+        {
+          "heading": "2.1.203",
+          "occurrence": 1,
+          "hash": "94fd8847f1674bfb7ebf3c941a6267c811c7de3cdc13f762084e59bfcb4584a0"
+        },
+        {
+          "heading": "2.1.202",
+          "occurrence": 1,
+          "hash": "aacc383eb441470009ed0e128b94f850455b70b22bb0bbd81d7a2c6c36ed7396"
+        },
+        {
+          "heading": "2.1.201",
+          "occurrence": 1,
+          "hash": "910d886d0778fa2b09ddca2541b10ebac9bdaee1378418555f3b52cd3b85e1db"
+        },
+        {
+          "heading": "2.1.200",
+          "occurrence": 1,
+          "hash": "ea2680de27fb31a6678a713df913ac0e21250fecb22443556448905a37347142"
+        },
+        {
+          "heading": "2.1.199",
+          "occurrence": 1,
+          "hash": "aa4eb6883f713dec2e18101b82191e4225c910791748382b205ea2651f99b8fb"
+        },
+        {
+          "heading": "2.1.198",
+          "occurrence": 1,
+          "hash": "7015447484788990bcc8015e94c0225f287020f97a9f8c03f801fe502cda6c27"
+        },
+        {
+          "heading": "2.1.197",
+          "occurrence": 1,
+          "hash": "e9d8c9b8654eae2dc4b92fdecdb22f253f2fc4f51519370ad204b8a38c487d6d"
+        },
+        {
+          "heading": "2.1.196",
+          "occurrence": 1,
+          "hash": "bbf27a4400c81a71290e04a6483838d62dbcd4bb20e89badae2d199096d267fc"
+        },
+        {
+          "heading": "2.1.195",
+          "occurrence": 1,
+          "hash": "8820c02860995dff0f2eb70e0a62a023d120e6250e1a3f1e93d266eb7206e958"
+        },
+        {
+          "heading": "2.1.193",
+          "occurrence": 1,
+          "hash": "c5508b2716f8b989a5cb8e6bab915300092f7bf284a4d2f47daa8385997c6c71"
+        },
+        {
+          "heading": "2.1.191",
+          "occurrence": 1,
+          "hash": "9e128e723fdd5321b5bc2aa8c97303c49c8faad0624c41c01719b07b256f84a1"
+        },
+        {
+          "heading": "2.1.190",
+          "occurrence": 1,
+          "hash": "fc0084f12b1a9f9e34817d57e874e745af36349397f5b18744a6416375aa72c6"
+        },
+        {
+          "heading": "2.1.187",
+          "occurrence": 1,
+          "hash": "a6dc33861b8836dda9464e952193e5141263522f208619d0b6d6535204c6cf48"
+        },
+        {
+          "heading": "2.1.186",
+          "occurrence": 1,
+          "hash": "71317876e0a454ab4433ecd2acda9545a2da1306d83ddc6ebdde1b33ec66670a"
+        },
+        {
+          "heading": "2.1.185",
+          "occurrence": 1,
+          "hash": "e183b9cdadd53f0614b1700da685330f8b50e6d75929acc6b74fcdc65177c975"
+        },
+        {
+          "heading": "2.1.183",
+          "occurrence": 1,
+          "hash": "d28229a1764f2fd914b9bec1c7fd6a971682fc2188409e92847f0393bea767ae"
+        },
+        {
+          "heading": "2.1.181",
+          "occurrence": 1,
+          "hash": "ac87ce36930b23bf06e70b62127efcb6adc8fa4d10c475545423e6a447cdc970"
+        },
+        {
+          "heading": "2.1.179",
+          "occurrence": 1,
+          "hash": "3fb0ff8d59dd96307b8f047b34bc6b5e8efbb26252c6f15b15196f44688227ee"
+        },
+        {
+          "heading": "2.1.178",
+          "occurrence": 1,
+          "hash": "c78cc9aa255701339768d3213130fdc6d26ac9966830f40310c9c96372201523"
+        },
+        {
+          "heading": "2.1.176",
+          "occurrence": 1,
+          "hash": "b09bca00ab11ae98e21ec6cacf016e97797fea928335d4f29ac7dcbcbbe90684"
+        },
+        {
+          "heading": "2.1.175",
+          "occurrence": 1,
+          "hash": "78f83de55cff8b77ae2387418548153dc8c4942a769ef968a60ef7a29f4fee90"
+        },
+        {
+          "heading": "2.1.174",
+          "occurrence": 1,
+          "hash": "c7cc3ac46e7dbbe3a8106157e7aa380f38ca31f898b5a9cb53f08617c785e9b8"
+        }
+      ],
+      "availabilityReason": null,
+      "httpMetadata": {
+        "etag": "W/\"25317a8b0acd627f4a1c38c6edf4a9ce810e8b54222db764c6029a6eb917eafd\"",
+        "lastModified": null,
+        "finalUrl": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md",
+        "statusCode": 304,
+        "redirectCount": 0
+      }
+    },
+    {
+      "id": "documentation:anthropic-news",
+      "sourceId": "anthropic-news",
+      "sourceTitle": "Anthropic news",
+      "sourceUrl": "https://www.anthropic.com/news",
+      "category": "Safety / governance / compliance",
+      "categories": [
+        "Safety / governance / compliance",
+        "Partnerships / Claudeforce"
+      ],
+      "checkedAt": "2026-09-02T19:33:26.784Z",
+      "requiresHumanReview": true,
+      "officialSource": true,
+      "contextNote": null,
+      "changedAt": "2026-09-02T15:36:02.277Z",
+      "status": "UNCHANGED",
+      "previousHash": "7ef2de31cfd17e93a5e69859b0b772e2dae134145030771b0b596e01c05cb709",
+      "currentHash": "7ef2de31cfd17e93a5e69859b0b772e2dae134145030771b0b596e01c05cb709",
+      "lastKnownHash": "7ef2de31cfd17e93a5e69859b0b772e2dae134145030771b0b596e01c05cb709",
+      "changedHeadings": [],
+      "excerpt": null,
+      "detectedImpactDomains": [
+        "external intelligence",
+        "safety controls",
+        "partnership context",
+        "model governance",
+        "agent capabilities"
+      ],
+      "impactLevel": "MEDIUM",
+      "confidence": 100,
+      "lastSuccessfulScanAt": "2026-09-02T19:33:26.784Z",
+      "observedHeadings": [
+        "Newsroom",
+        "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+        "Previewing the Model Hardware Standard",
+        "How Claude’s text watermark works",
+        "Introducing Claude Opus 5",
+        "The Making of Claude Code",
+        "News"
+      ],
+      "headingDigests": [
+        {
+          "heading": "Document body",
+          "occurrence": 1,
+          "hash": "e9559acdc474d676ba922f5152a7df83c5f0a15260aed87ebbba97d8d59f1b74"
+        },
+        {
+          "heading": "Newsroom",
+          "occurrence": 1,
+          "hash": "5b729ce56576abf494b14685ae09f51f6db0d1426508e1bceeeef97cdd1634f1"
+        },
+        {
+          "heading": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+          "occurrence": 1,
+          "hash": "2109483c6530603296067178f07d3b99cdb6cf269410db5521569abfe0642c11"
+        },
+        {
+          "heading": "Previewing the Model Hardware Standard",
+          "occurrence": 1,
+          "hash": "92e6ffdbe1fef5bbb786a10640f9cd38d8e4a70d593343bdc1944e53061aa54a"
+        },
+        {
+          "heading": "How Claude’s text watermark works",
+          "occurrence": 1,
+          "hash": "ce6f4f16ee16265d64a177401d981d7710ccae2e2649b7561fd3eee5c6df7a34"
+        },
+        {
+          "heading": "Introducing Claude Opus 5",
+          "occurrence": 1,
+          "hash": "220fb58570ffc3277bf8986ac169a267ab5872737a22745eda4ff2a5844c3d2a"
+        },
+        {
+          "heading": "The Making of Claude Code",
+          "occurrence": 1,
+          "hash": "c2d638c45578d51bce724c92717eafdccdbfbadc9b9623b94304cd46679cb32c"
+        },
+        {
+          "heading": "News",
+          "occurrence": 1,
+          "hash": "c668944b604da6f710cebed4a0e19e812c5a59f1bd6a2b80c274990c82785fc5"
+        }
+      ],
+      "availabilityReason": null,
+      "httpMetadata": {
+        "etag": null,
+        "lastModified": null,
+        "finalUrl": "https://www.anthropic.com/news",
+        "statusCode": 200,
+        "redirectCount": 0
+      }
+    },
+    {
+      "id": "documentation:anthropic-salesforce-expanded-partnership",
+      "sourceId": "anthropic-salesforce-expanded-partnership",
+      "sourceTitle": "Salesforce and Anthropic expanded partnership",
+      "sourceUrl": "https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership",
+      "category": "Partnerships / Claudeforce",
+      "categories": [
+        "Partnerships / Claudeforce",
+        "Enterprise Admin",
+        "Skills / plugins / connectors"
+      ],
+      "checkedAt": "2026-09-02T19:33:26.784Z",
+      "requiresHumanReview": true,
+      "officialSource": true,
+      "contextNote": "Claudeforce is an expanded strategic partnership between Salesforce and Anthropic, not a merger.",
+      "changedAt": "2026-09-02T15:36:02.277Z",
+      "status": "UNCHANGED",
+      "previousHash": "c3fa07444af13dc96cd84ad515fc61638a543cf85af1ecdff9ae1d683e575309",
+      "currentHash": "c3fa07444af13dc96cd84ad515fc61638a543cf85af1ecdff9ae1d683e575309",
+      "lastKnownHash": "c3fa07444af13dc96cd84ad515fc61638a543cf85af1ecdff9ae1d683e575309",
+      "changedHeadings": [],
+      "excerpt": null,
+      "detectedImpactDomains": [
+        "partnership context",
+        "enterprise administration",
+        "connector strategy",
+        "model governance",
+        "agent capabilities",
+        "safety controls"
+      ],
+      "impactLevel": "REVIEW_REQUIRED",
+      "confidence": 100,
+      "lastSuccessfulScanAt": "2026-09-02T19:33:26.784Z",
+      "observedHeadings": [
+        "Anthropic and Salesforce expand partnership to bring Claude to regulated industries",
+        "The expanded partnership includes three new initiatives",
+        "1. Providing Claude as a preferred foundational model in Agentforce via Amazon Bedrock",
+        "2. Building industry-specific AI solutions",
+        "3. Deepening integration between Claude and Slack",
+        "Salesforce deploys Claude Code, Anthropic runs on Slack",
+        "Related content",
+        "Developing Enterprise Frontier Safeguards with our customers",
+        "Improving our alignment and security efforts",
+        "Previewing the Model Hardware Standard"
+      ],
+      "headingDigests": [
+        {
+          "heading": "Document body",
+          "occurrence": 1,
+          "hash": "cb50c23ff0127c17a08c25103debfcebd52959ef189c4be185b90f563be2eae3"
+        },
+        {
+          "heading": "Anthropic and Salesforce expand partnership to bring Claude to regulated industries",
+          "occurrence": 1,
+          "hash": "15deaa936eee5925fc3a3b267e964de37a1d12ad563782e61def79c4cac2e70c"
+        },
+        {
+          "heading": "The expanded partnership includes three new initiatives",
+          "occurrence": 1,
+          "hash": "ba06578cba98e8aa4f81fbb8eed5855a264bea023e34963a2f3d3fa992ed6938"
+        },
+        {
+          "heading": "1. Providing Claude as a preferred foundational model in Agentforce via Amazon Bedrock",
+          "occurrence": 1,
+          "hash": "2f8555de7d52ec818db77c93a84ecb1c33753213d6cb8714a3b2259323fb40aa"
+        },
+        {
+          "heading": "2. Building industry-specific AI solutions",
+          "occurrence": 1,
+          "hash": "73eb6f09db9835c7197b7876ce8683f8977f27c7eb6d86c2ff9913447254d4ed"
+        },
+        {
+          "heading": "3. Deepening integration between Claude and Slack",
+          "occurrence": 1,
+          "hash": "c33efba43e239d4142e2862f79386d9a406ae9792d780481c9def547ab641f4c"
+        },
+        {
+          "heading": "Salesforce deploys Claude Code, Anthropic runs on Slack",
+          "occurrence": 1,
+          "hash": "19bd0e5b07e79683ab81cbab7eb79519aee92b6b027362ef2162daa92e387646"
+        },
+        {
+          "heading": "Related content",
+          "occurrence": 1,
+          "hash": "9b0f48b05db7f97b02e5991e0682b687dbb2ab631ae0b087a6a581a56c0c97d1"
+        },
+        {
+          "heading": "Developing Enterprise Frontier Safeguards with our customers",
+          "occurrence": 1,
+          "hash": "3012abcef361a0b6b770d6c0e48a566e62d2f892224c4b604c789ac936debb86"
+        },
+        {
+          "heading": "Improving our alignment and security efforts",
+          "occurrence": 1,
+          "hash": "4e49fca307e346829fbfe5dcd4bbd7b8d2d838ba4273d418c9d99378429d3031"
+        },
+        {
+          "heading": "Previewing the Model Hardware Standard",
+          "occurrence": 1,
+          "hash": "991962522648935e75aeeba369f3f536bea064d563e3810a86f227f927e83fcc"
+        }
+      ],
+      "availabilityReason": null,
+      "httpMetadata": {
+        "etag": null,
+        "lastModified": null,
+        "finalUrl": "https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership",
+        "statusCode": 200,
+        "redirectCount": 0
+      }
+    },
+    {
+      "id": "documentation:salesforce-claudeforce-announcement",
+      "sourceId": "salesforce-claudeforce-announcement",
+      "sourceTitle": "Salesforce and Anthropic announce Claudeforce",
+      "sourceUrl": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/",
+      "category": "Partnerships / Claudeforce",
+      "categories": [
+        "Partnerships / Claudeforce",
+        "Enterprise Admin",
+        "Skills / plugins / connectors"
+      ],
+      "checkedAt": "2026-09-02T19:33:26.784Z",
+      "requiresHumanReview": true,
+      "officialSource": true,
+      "contextNote": "Claudeforce is an expanded strategic partnership between Salesforce and Anthropic, not a merger.",
+      "changedAt": "2026-09-02T15:36:02.277Z",
+      "status": "UNCHANGED",
+      "previousHash": "1eec44afc75b5d444b3a5a3dfbd443a721f0aa85a4baccbe6a8da288961dfd47",
+      "currentHash": "1eec44afc75b5d444b3a5a3dfbd443a721f0aa85a4baccbe6a8da288961dfd47",
+      "lastKnownHash": "1eec44afc75b5d444b3a5a3dfbd443a721f0aa85a4baccbe6a8da288961dfd47",
+      "changedHeadings": [],
+      "excerpt": null,
+      "detectedImpactDomains": [
+        "partnership context",
+        "enterprise administration",
+        "connector strategy"
+      ],
+      "impactLevel": "REVIEW_REQUIRED",
+      "confidence": 100,
+      "lastSuccessfulScanAt": "2026-09-02T19:33:26.784Z",
+      "observedHeadings": [
+        "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM",
+        "One partnership, intertwining AI built with data built on trust",
+        "1. Salesforce inside Claude",
+        "2. Claude inside Salesforce",
+        "3. Slack: Where humans and agents work together",
+        "4. A partnership built on mutual adoption",
+        "Availability",
+        "About Salesforce",
+        "About Anthropic",
+        "Just For You",
+        "VCARB Partners with Salesforce to Supercharge Fan Engagement with AI, Deploying Agentforce 360",
+        "Salesforce Partners with Databricks to Help AI Agents Turn Trusted Data into Trusted Action",
+        "Build and customize autonomous AI agents to support your employees and customers 24/7.",
+        "Just For You",
+        "VCARB Partners with Salesforce to Supercharge Fan Engagement with AI, Deploying Agentforce 360",
+        "Salesforce Partners with Databricks to Help AI Agents Turn Trusted Data into Trusted Action",
+        "Build and customize autonomous AI agents to support your employees and customers 24/7.",
+        "Explore related content by topic",
+        "Related Articles",
+        "Salesforce to Transform Fan Engagement and Tournament Operations at FIFA World Cup 2026TM and FIFA Women’s World Cup 2027TM",
+        "Informatica Deepens Strategic Partnership with Google Cloud, Bringing Headless Data Management and CLAIRE® Conversational AI to the Enterprise",
+        "Informatica Deepens Collaboration with Microsoft to Deliver Trusted Data for Agentic AI and Analytics at Scale",
+        "Informatica Announces Headless Data Management for AWS to Power Trusted, Enterprise-Ready Agentic Workflows"
+      ],
+      "headingDigests": [
+        {
+          "heading": "Document body",
+          "occurrence": 1,
+          "hash": "a04a72892e0d18af77534022b18923f70f4dcc60ea6b3859435e8c781e1e8879"
+        },
+        {
+          "heading": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM",
+          "occurrence": 1,
+          "hash": "3f09faa5612ea696174e71924b6baac56fe80c67f69fa8b174b52701720dc876"
+        },
+        {
+          "heading": "One partnership, intertwining AI built with data built on trust",
+          "occurrence": 1,
+          "hash": "883ffdcf8e13c858b2fbaf1cc473b1a80f4f981759733cf084f612c9cf28a078"
+        },
+        {
+          "heading": "1. Salesforce inside Claude",
+          "occurrence": 1,
+          "hash": "d29c1dc48ff4b4384c4bda735f36017de6bfc95418d629d8b32b86f004cd16e6"
+        },
+        {
+          "heading": "2. Claude inside Salesforce",
+          "occurrence": 1,
+          "hash": "d9a84a834a6775a4482583e38f5a6a8e4ed7a9b48a2bbe5e1045ecc82f79b7d3"
+        },
+        {
+          "heading": "3. Slack: Where humans and agents work together",
+          "occurrence": 1,
+          "hash": "0d707b5d261065bf29a31cd0cb4bf96047c2b22f0ebdf639fa109165b235ffc8"
+        },
+        {
+          "heading": "4. A partnership built on mutual adoption",
+          "occurrence": 1,
+          "hash": "243be4007ae7575bd77f1259abee690819dd714b3fd513bd4f5e5d1db13c17e5"
+        },
+        {
+          "heading": "Availability",
+          "occurrence": 1,
+          "hash": "bef07258d4eea6be6d22171afd3fe2a0951c927df0e5402e4601762eb60f3769"
+        },
+        {
+          "heading": "About Salesforce",
+          "occurrence": 1,
+          "hash": "3b7dedf77bd6bd31a79b3af77f9af6bd334214967f06de77f458b2e86bf86117"
+        },
+        {
+          "heading": "About Anthropic",
+          "occurrence": 1,
+          "hash": "16bd741663d8238f19a8aa1acd88946d898dd463870e0ed351c14196438046c6"
+        },
+        {
+          "heading": "Just For You",
+          "occurrence": 1,
+          "hash": "c7d83fa64097abe1c78cacb5edf76925532f09de1a05a2e191ba54249262a5bd"
+        },
+        {
+          "heading": "VCARB Partners with Salesforce to Supercharge Fan Engagement with AI, Deploying Agentforce 360",
+          "occurrence": 1,
+          "hash": "f6734357dec4438278657839633267545d11e5674d33d65446c3733ccdf62d68"
+        },
+        {
+          "heading": "Salesforce Partners with Databricks to Help AI Agents Turn Trusted Data into Trusted Action",
+          "occurrence": 1,
+          "hash": "30af526f029893e9b739d2bd62600ab27e2d44a91f67bf94dfef75039e9aa665"
+        },
+        {
+          "heading": "Build and customize autonomous AI agents to support your employees and customers 24/7.",
+          "occurrence": 1,
+          "hash": "58c2a4ef400a4c075fa392639a11818c8d6d58fc0426090481b0aaf44d36a5b1"
+        },
+        {
+          "heading": "Just For You",
+          "occurrence": 2,
+          "hash": "c7d83fa64097abe1c78cacb5edf76925532f09de1a05a2e191ba54249262a5bd"
+        },
+        {
+          "heading": "VCARB Partners with Salesforce to Supercharge Fan Engagement with AI, Deploying Agentforce 360",
+          "occurrence": 2,
+          "hash": "f6734357dec4438278657839633267545d11e5674d33d65446c3733ccdf62d68"
+        },
+        {
+          "heading": "Salesforce Partners with Databricks to Help AI Agents Turn Trusted Data into Trusted Action",
+          "occurrence": 2,
+          "hash": "30af526f029893e9b739d2bd62600ab27e2d44a91f67bf94dfef75039e9aa665"
+        },
+        {
+          "heading": "Build and customize autonomous AI agents to support your employees and customers 24/7.",
+          "occurrence": 2,
+          "hash": "58c2a4ef400a4c075fa392639a11818c8d6d58fc0426090481b0aaf44d36a5b1"
+        },
+        {
+          "heading": "Explore related content by topic",
+          "occurrence": 1,
+          "hash": "8969c3a280010cde4fe4110bb335ffbc37f37c1e09f35b0bd5335fc55c05c7ef"
+        },
+        {
+          "heading": "Related Articles",
+          "occurrence": 1,
+          "hash": "d8615bedd3284da02aea04149387ec7a053c8e594e2b4cd82991bca2dbdd0e48"
+        },
+        {
+          "heading": "Salesforce to Transform Fan Engagement and Tournament Operations at FIFA World Cup 2026TM and FIFA Women’s World Cup 2027TM",
+          "occurrence": 1,
+          "hash": "b5aa2efbc691bfe2abb03fc940da9cba6507ce33aa813c3e679ec5a7cae8d29b"
+        },
+        {
+          "heading": "Informatica Deepens Strategic Partnership with Google Cloud, Bringing Headless Data Management and CLAIRE® Conversational AI to the Enterprise",
+          "occurrence": 1,
+          "hash": "cfaaeb1a7c138b8f7664532e2dced7ba33edbbd05992b8060272ada0ef3ffe2b"
+        },
+        {
+          "heading": "Informatica Deepens Collaboration with Microsoft to Deliver Trusted Data for Agentic AI and Analytics at Scale",
+          "occurrence": 1,
+          "hash": "314ba0571679acf8777b0b9d9c23e470593a48c4704b076bf8f4ab06edbb64a8"
+        },
+        {
+          "heading": "Informatica Announces Headless Data Management for AWS to Power Trusted, Enterprise-Ready Agentic Workflows",
+          "occurrence": 1,
+          "hash": "3c20166edf4829377de55f4b11c850247ae23493a237e6f4b4826793bf862808"
+        }
+      ],
+      "availabilityReason": null,
+      "httpMetadata": {
+        "etag": null,
+        "lastModified": null,
+        "finalUrl": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/",
+        "statusCode": 200,
+        "redirectCount": 0
+      }
+    },
+    {
+      "id": "documentation:claude-status-history-atom",
+      "sourceId": "claude-status-history-atom",
+      "sourceTitle": "Claude service status history (Atom)",
+      "sourceUrl": "https://status.claude.com/history.atom",
+      "category": "Service health",
+      "categories": [
+        "Service health"
+      ],
+      "checkedAt": "2026-09-02T19:33:26.784Z",
+      "requiresHumanReview": true,
+      "officialSource": true,
+      "contextNote": null,
+      "changedAt": "2026-09-02T16:45:13.457Z",
+      "status": "UNCHANGED",
+      "previousHash": "21bff238b41f631c8795d80f9457592c4516b50b8a792aff4e6cd302648b51db",
+      "currentHash": "21bff238b41f631c8795d80f9457592c4516b50b8a792aff4e6cd302648b51db",
+      "lastKnownHash": "21bff238b41f631c8795d80f9457592c4516b50b8a792aff4e6cd302648b51db",
+      "changedHeadings": [],
+      "excerpt": null,
+      "detectedImpactDomains": [
+        "service health",
+        "demo readiness",
+        "incident correlation"
+      ],
+      "impactLevel": "HIGH",
+      "confidence": 100,
+      "lastSuccessfulScanAt": "2026-09-02T19:33:26.784Z",
+      "observedHeadings": [
+        "Claude Status - Incident History",
+        "Delays in credit purchases",
+        "Degraded performance on platform.claude.com and Claude for Microsoft Office 365",
+        "Degraded performance on Claude for Microsoft Office 365",
+        "Degraded performance on claude.ai and Claude Code",
+        "Degraded performance on claude.ai",
+        "Elevated errors on Claude Code and Claude Cowork",
+        "Issues logging into Claude.ai",
+        "Errors logging into Claude.ai",
+        "Elevated errors for multiple models",
+        "Elevated errors on requests to multiple models",
+        "Elevated errors on Google connectors",
+        "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
+        "Degraded performance for multiple models",
+        "Degraded performance for Claude Opus 5, Claude Sonnet 5",
+        "Service disruption on Claude services",
+        "Elevated errors for Claude Fable 5",
+        "Service disruption on Claude services",
+        "Issues reaching status.claude.com",
+        "Service disruption on Claude Code on the web and related services",
+        "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5",
+        "Degraded performance for multiple models",
+        "Degraded performance for Claude Opus 5",
+        "Degraded performance of multiple models",
+        "Elevated errors across many models",
+        "Elevated errors on Claude Sonnet 5"
+      ],
+      "headingDigests": [
+        {
+          "heading": "Document body",
+          "occurrence": 1,
+          "hash": "c2559ad597410feabc9d67fced7bb5059eda5c3e3f1ed430541d9016d968ecd8"
+        },
+        {
+          "heading": "Claude Status - Incident History",
+          "occurrence": 1,
+          "hash": "1fc82e901387effb9afb760a1baedfa750bddbb7519ad875a6263a8df2bdefc8"
+        },
+        {
+          "heading": "Delays in credit purchases",
+          "occurrence": 1,
+          "hash": "f3d1fda4da83dc6d7b3c7d8856828de88908aad099a30dd45292d9d2a062c160"
+        },
+        {
+          "heading": "Degraded performance on platform.claude.com and Claude for Microsoft Office 365",
+          "occurrence": 1,
+          "hash": "33ebdd72ad148d9644850041a19272aebfa9804b744f8fc5ab2cea34b94edc08"
+        },
+        {
+          "heading": "Degraded performance on Claude for Microsoft Office 365",
+          "occurrence": 1,
+          "hash": "159ba6bfc8f3c6581939b9bc7318327230a87810f45b70caa33e50ece866a545"
+        },
+        {
+          "heading": "Degraded performance on claude.ai and Claude Code",
+          "occurrence": 1,
+          "hash": "ade481e430f0a1237c1bc9bebf398a04f9e92e61e7533ff272f06ceb0df4c2c8"
+        },
+        {
+          "heading": "Degraded performance on claude.ai",
+          "occurrence": 1,
+          "hash": "fec0f7bdd112ddf64ec23492c923feb0149b710234962156eeaba549436b0b5d"
+        },
+        {
+          "heading": "Elevated errors on Claude Code and Claude Cowork",
+          "occurrence": 1,
+          "hash": "a0585273939288ebea0180213aea442e4cebebcef0be122e0dd8008296c7d6da"
+        },
+        {
+          "heading": "Issues logging into Claude.ai",
+          "occurrence": 1,
+          "hash": "109c89f7c09bf6ffddd2e1b96292ad6f538e74c8baa0f3bd13bdcdcfd9e91968"
+        },
+        {
+          "heading": "Errors logging into Claude.ai",
+          "occurrence": 1,
+          "hash": "7076ca1d240915d18665efdcd79dec97213bbecf255d6cdfb41e20eb95c8feb7"
+        },
+        {
+          "heading": "Elevated errors for multiple models",
+          "occurrence": 1,
+          "hash": "d297380354e85c7deb6b603162220b923390ee2b02b07d4570ea3980b987b60e"
+        },
+        {
+          "heading": "Elevated errors on requests to multiple models",
+          "occurrence": 1,
+          "hash": "c6c2451d7838c614be7207b020018b39d90598d252857d0317e8fe275cad7742"
+        },
+        {
+          "heading": "Elevated errors on Google connectors",
+          "occurrence": 1,
+          "hash": "7e1b3239a8cd0d2739da27c23acf5b94fcab24545510ad1e6de98016b8ddecfe"
+        },
+        {
+          "heading": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
+          "occurrence": 1,
+          "hash": "0eb97728c0d818c8ed038dc5d6c7f2867f2732a163c9e43838808ecd855c8831"
+        },
+        {
+          "heading": "Degraded performance for multiple models",
+          "occurrence": 1,
+          "hash": "4abb3a17c7541256dd601127a1478fb47ae9154ee4122085950d30d70d835b6b"
+        },
+        {
+          "heading": "Degraded performance for Claude Opus 5, Claude Sonnet 5",
+          "occurrence": 1,
+          "hash": "4213a016a4e6682a1915a5fdedbb6a44e2e3646557d6edd60a8278271bfbf2ba"
+        },
+        {
+          "heading": "Service disruption on Claude services",
+          "occurrence": 1,
+          "hash": "7baf47f913fe46e5c3fa6a5fb0745a0932e658845bb22288b91159d5bd21dd80"
+        },
+        {
+          "heading": "Elevated errors for Claude Fable 5",
+          "occurrence": 1,
+          "hash": "71cf8b5245c0fd8d616bd2bbb89a03ea9842c389522659727340c0698b325b17"
+        },
+        {
+          "heading": "Service disruption on Claude services",
+          "occurrence": 2,
+          "hash": "d37ef509dd54d13badca44634db5892283294a8e611f7142d25997e534d10791"
+        },
+        {
+          "heading": "Issues reaching status.claude.com",
+          "occurrence": 1,
+          "hash": "a7a47756ddbc8e020257d6fb7f3e0499dad697e58cfa65b9e346dd9a06f16ce6"
+        },
+        {
+          "heading": "Service disruption on Claude Code on the web and related services",
+          "occurrence": 1,
+          "hash": "15b6ec1d6e696db4c9f05abdefad34cc1df320aab928bc89f4f5da325198e1ba"
+        },
+        {
+          "heading": "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5",
+          "occurrence": 1,
+          "hash": "f5fe478c06a0ce76a7c7241e9065985decf6340e2094b35201e7223470444f7d"
+        },
+        {
+          "heading": "Degraded performance for multiple models",
+          "occurrence": 2,
+          "hash": "ce6744648ad012962ffd208c6594365a6b1b8507fbab9f56fdf9cd00172976d3"
+        },
+        {
+          "heading": "Degraded performance for Claude Opus 5",
+          "occurrence": 1,
+          "hash": "c33e11fb218cde0819c3eb399ef30ed4b104e22380bc8f2d3f5d8a16dad8ed7c"
+        },
+        {
+          "heading": "Degraded performance of multiple models",
+          "occurrence": 1,
+          "hash": "5526ea6eb492f326b39066405917596c27623b737bc9d3d339b54ed88e55d230"
+        },
+        {
+          "heading": "Elevated errors across many models",
+          "occurrence": 1,
+          "hash": "43b57146afb319f256570df34e36ac57745d71548691af4c6ec30463a678c596"
+        },
+        {
+          "heading": "Elevated errors on Claude Sonnet 5",
+          "occurrence": 1,
+          "hash": "a4b7f319e78e75d2c1c5be56e57c47e257a9407e026e879d947e9413f71cbb57"
+        }
+      ],
+      "availabilityReason": null,
+      "httpMetadata": {
+        "etag": "W/\"b5f077e155e026bd8321381a6733896a\"",
+        "lastModified": null,
+        "finalUrl": "https://status.claude.com/history.atom",
+        "statusCode": 304,
+        "redirectCount": 0
+      }
+    },
+    {
+      "id": "documentation:claude-status-history-rss",
+      "sourceId": "claude-status-history-rss",
+      "sourceTitle": "Claude service status history (RSS)",
+      "sourceUrl": "https://status.claude.com/history.rss",
+      "category": "Service health",
+      "categories": [
+        "Service health"
+      ],
+      "checkedAt": "2026-09-02T19:33:26.784Z",
+      "requiresHumanReview": true,
+      "officialSource": true,
+      "contextNote": null,
+      "changedAt": "2026-09-02T16:45:13.457Z",
+      "status": "UNCHANGED",
+      "previousHash": "c836f399859e5dce484d526b2d0d694a7cd6070303a396afecf4feae72c664b7",
+      "currentHash": "c836f399859e5dce484d526b2d0d694a7cd6070303a396afecf4feae72c664b7",
+      "lastKnownHash": "c836f399859e5dce484d526b2d0d694a7cd6070303a396afecf4feae72c664b7",
+      "changedHeadings": [],
+      "excerpt": null,
+      "detectedImpactDomains": [
+        "service health",
+        "demo readiness",
+        "incident correlation"
+      ],
+      "impactLevel": "HIGH",
+      "confidence": 100,
+      "lastSuccessfulScanAt": "2026-09-02T19:33:26.784Z",
+      "observedHeadings": [
+        "Claude Status - Incident History",
+        "Delays in credit purchases",
+        "Degraded performance on platform.claude.com and Claude for Microsoft Office 365",
+        "Degraded performance on Claude for Microsoft Office 365",
+        "Degraded performance on claude.ai and Claude Code",
+        "Degraded performance on claude.ai",
+        "Elevated errors on Claude Code and Claude Cowork",
+        "Issues logging into Claude.ai",
+        "Errors logging into Claude.ai",
+        "Elevated errors for multiple models",
+        "Elevated errors on requests to multiple models",
+        "Elevated errors on Google connectors",
+        "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
+        "Degraded performance for multiple models",
+        "Degraded performance for Claude Opus 5, Claude Sonnet 5",
+        "Service disruption on Claude services",
+        "Elevated errors for Claude Fable 5",
+        "Service disruption on Claude services",
+        "Issues reaching status.claude.com",
+        "Service disruption on Claude Code on the web and related services",
+        "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5",
+        "Degraded performance for multiple models",
+        "Degraded performance for Claude Opus 5",
+        "Degraded performance of multiple models",
+        "Elevated errors across many models",
+        "Elevated errors on Claude Sonnet 5"
+      ],
+      "headingDigests": [
+        {
+          "heading": "Claude Status - Incident History",
+          "occurrence": 1,
+          "hash": "16beb6d9e72085b625c00f32a114b28eb719031bf493deb7e0cd51671b49f0d9"
+        },
+        {
+          "heading": "Delays in credit purchases",
+          "occurrence": 1,
+          "hash": "dc6d8ffa79424eaa7796eb3ce3eef40cdb5b6c7c1e68fd7ea672d2bc3e375dd2"
+        },
+        {
+          "heading": "Degraded performance on platform.claude.com and Claude for Microsoft Office 365",
+          "occurrence": 1,
+          "hash": "308774ae704a6fcc5fe58b21e759fd1351ee8a49722c74234c7f643a18738eb7"
+        },
+        {
+          "heading": "Degraded performance on Claude for Microsoft Office 365",
+          "occurrence": 1,
+          "hash": "0832131c8ab0fbcb94c3577c037662994f5b74f1079c8243a3671c57561540c5"
+        },
+        {
+          "heading": "Degraded performance on claude.ai and Claude Code",
+          "occurrence": 1,
+          "hash": "55d30a17b61a26a0e185b3e20ea0ad8343027b1f48aff5264f3283df57444615"
+        },
+        {
+          "heading": "Degraded performance on claude.ai",
+          "occurrence": 1,
+          "hash": "c6fdc072fac1752a5526d2632640402dc851b487312ac7236499827334e2a010"
+        },
+        {
+          "heading": "Elevated errors on Claude Code and Claude Cowork",
+          "occurrence": 1,
+          "hash": "9c61f5c859bb2da96a09183310bcc570fc59eb0644a2a18901b9f56ab3fef455"
+        },
+        {
+          "heading": "Issues logging into Claude.ai",
+          "occurrence": 1,
+          "hash": "b95706e21c3b9086336383b5489cc78b7b4f6dae8bdbc44e32012380c0586694"
+        },
+        {
+          "heading": "Errors logging into Claude.ai",
+          "occurrence": 1,
+          "hash": "a8a27bedb2a7eeb2c1f4e716e2517e6a7ad8bd05b3a850fc05c3579dcc89fad8"
+        },
+        {
+          "heading": "Elevated errors for multiple models",
+          "occurrence": 1,
+          "hash": "acd90ec323c5aa0d6f1a34a5c343c65dfeab9c8807b02ac3d516b5b6e098dded"
+        },
+        {
+          "heading": "Elevated errors on requests to multiple models",
+          "occurrence": 1,
+          "hash": "6d1bec8a933d433df1e981f20b1dbb9d1bb112e152dd304f7bd0937bb82c4e2c"
+        },
+        {
+          "heading": "Elevated errors on Google connectors",
+          "occurrence": 1,
+          "hash": "bca3137cb6d793e27a66e776fa8f9b136a768b0741fe1884e4ce5f8c06e633be"
+        },
+        {
+          "heading": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
+          "occurrence": 1,
+          "hash": "8801dc6faf4f746f6a98fd8a995b773e4dca29f212ef8d3a3c4dac53d6f8d6e9"
+        },
+        {
+          "heading": "Degraded performance for multiple models",
+          "occurrence": 1,
+          "hash": "6d21cfe56de198e7e7f83653ee7520286e06aa644dcc4020d262fbc1f51c3657"
+        },
+        {
+          "heading": "Degraded performance for Claude Opus 5, Claude Sonnet 5",
+          "occurrence": 1,
+          "hash": "eb076b67bcc70f09542d88506ea49cf863bad6512d120e00a8866ba881d3af41"
+        },
+        {
+          "heading": "Service disruption on Claude services",
+          "occurrence": 1,
+          "hash": "525cff6ed97045bae7978ec0cb9bc2ca18ec21aa9bd48f8621cae753beba118a"
+        },
+        {
+          "heading": "Elevated errors for Claude Fable 5",
+          "occurrence": 1,
+          "hash": "b7112336813b942f2340dc161369fba02a2e90f5ecf964544afc3044cfbcc513"
+        },
+        {
+          "heading": "Service disruption on Claude services",
+          "occurrence": 2,
+          "hash": "a1574d5f18a80c09f9b9d09b06164b4889755e720a4f25caa40d66ded15a4ebb"
+        },
+        {
+          "heading": "Issues reaching status.claude.com",
+          "occurrence": 1,
+          "hash": "a1f231b11db0ab4847ebe1d53931bf68522bcd1c7a78a73eeeaa0ae21db8fbaa"
+        },
+        {
+          "heading": "Service disruption on Claude Code on the web and related services",
+          "occurrence": 1,
+          "hash": "d3da62ded27b7ec9e948e5e16f8c3f143408952e028a18c528a5cbf1fdbaa579"
+        },
+        {
+          "heading": "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5",
+          "occurrence": 1,
+          "hash": "17af28e9d90f62338e5b3342efd7ed5300d012e941f8cdd50991bb7660fd1e92"
+        },
+        {
+          "heading": "Degraded performance for multiple models",
+          "occurrence": 2,
+          "hash": "9459c8951dfb72c543a0474f0e20d6f4a80c8b243f30be19710ccdfa759e7dbf"
+        },
+        {
+          "heading": "Degraded performance for Claude Opus 5",
+          "occurrence": 1,
+          "hash": "1782cc4166113c7177977b150aeefbb7321ab6a5ac983b4ff15d00effad58f6c"
+        },
+        {
+          "heading": "Degraded performance of multiple models",
+          "occurrence": 1,
+          "hash": "363ac267380698b8ea56843d90e8efa21c6e25b069fefbe82d1dce4981076aa9"
+        },
+        {
+          "heading": "Elevated errors across many models",
+          "occurrence": 1,
+          "hash": "21b3a0a365a7ee9ee768060e22a0f7be08a9dd94d3e1061e601c83997d125979"
+        },
+        {
+          "heading": "Elevated errors on Claude Sonnet 5",
+          "occurrence": 1,
+          "hash": "a9b8ce82b7b7f3140df739f90e55df0d42fe35f13d9a2175e4297a28d895b8d5"
+        }
+      ],
+      "availabilityReason": null,
+      "httpMetadata": {
+        "etag": "W/\"c6591804b72e72b8206ff8d182f30e65\"",
+        "lastModified": null,
+        "finalUrl": "https://status.claude.com/history.rss",
+        "statusCode": 304,
+        "redirectCount": 0
+      }
+    }
+  ]
+}

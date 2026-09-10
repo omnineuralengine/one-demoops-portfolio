@@ -1,0 +1,59 @@
+name: Check the public demo
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: checks-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    env:
+      NEXT_TELEMETRY_DISABLED: "1"
+
+    steps:
+      - name: Check out this change without saved credentials
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Use the tested Node.js version
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22.22.2
+
+      - name: Install exactly the locked dependencies
+        run: npm ci --ignore-scripts --no-audit --no-fund
+
+      - name: Check code style
+        run: npm run lint
+
+      - name: Check types
+        run: npm run typecheck
+
+      - name: Test synthetic interactions and safety boundaries
+        run: npm test
+
+      - name: Validate the recorded source artifacts
+        run: npm run radar:validate
+
+      - name: Build the production demo
+        run: npm run build
+
+      - name: Install the Chromium test browser
+        run: npm exec -- playwright install --with-deps chromium
+
+      - name: Check the visitor journey
+        run: npm run test:e2e

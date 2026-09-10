@@ -1,0 +1,19 @@
+import { defineConfig } from "vitest/config";
+import path from "node:path";
+
+export default defineConfig({
+  resolve: {
+    alias: {
+      "@": path.resolve(import.meta.dirname, "."),
+    },
+  },
+  test: {
+    environment: "jsdom",
+    globals: true,
+    setupFiles: ["./vitest.setup.ts"],
+    include: ["tests/**/*.test.{ts,tsx}"],
+    coverage: {
+      reporter: ["text", "json", "html"],
+    },
+  },
+});
