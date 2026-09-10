@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
-import { Analytics } from "@vercel/analytics/next";
+import { HostedAnalytics } from "@/components/analytics/HostedAnalytics";
 import { GitBranch } from "lucide-react";
 import { shouldEnableHostedAnalytics } from "@/lib/runtime-boundaries";
 import "./globals.css";
@@ -14,6 +14,7 @@ const metadataBase = new URL(
 
 export const metadata: Metadata = {
   metadataBase,
+  referrer: "no-referrer",
   title: {
     default: "ONE DemoOps Control Plane",
     template: "%s | ONE DemoOps Control Plane",
@@ -86,7 +87,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             or architecture.
           </p>
         </footer>
-        {shouldEnableHostedAnalytics(process.env) ? <Analytics /> : null}
+        {shouldEnableHostedAnalytics(process.env) ? <HostedAnalytics /> : null}
       </body>
     </html>
   );

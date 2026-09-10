@@ -1,42 +1,38 @@
 # ONE DemoOps Control Plane
 
-ONE DemoOps Control Plane is an interactive lab about keeping product demonstrations dependable. Follow a change through affected people, a response, and evidence that the response worked.
+**[Open the live portfolio demo](https://one-demoops-control-plane-public-re.vercel.app/)**
 
-## Try it
+DemoOps teaches how to keep product demonstrations dependable when something changes. Follow a public release note, see who and what could be affected, choose a response, and check whether it worked. Built with ONE, the Omni Neural Engine, this interactive portfolio lab makes each decision and result visible.
 
-No verified hosted demo is available yet. Run it below, then open [the local briefing](http://127.0.0.1:3201/briefing).
+## Take the 90-second tour
 
-## What to try first
+1. Open the demo and click **Start the 90-second tour**. Inspect a dated public release note and the separately labeled, authored before/after example.
+2. Click **Reveal affected work** to see the connection between a demo, permissions, learning material, and fictional owners.
+3. Click **Choose a response**. Compare rehearsing a safe fallback with holding for more evidence, then follow the handoff, approvals, failed check, corrected instructions, and passing replay.
 
-1. Click **Start the 90-second tour**. Inspect a dated public release note and the separately labeled, authored before/after example.
-2. Click **Reveal affected work**. See how one change can affect a demo, permissions, learning material, and fictional owners.
-3. Click **Choose a response**. Compare rehearsing a safe fallback with holding for more evidence; then follow the handoff, approvals, failed check, corrected instructions, and passing replay.
+Approval alone cannot resolve the exercise: passing simulated evidence and human closure are separate steps. **Restart journey** clears the rehearsal; **Explore freely** preserves it while opening the wider lab.
 
-Approval alone cannot resolve the exercise: passing simulated evidence and human closure are separate steps. **Restart journey** clears the rehearsal; **Explore freely** keeps its current state while opening the wider lab.
+## Run locally
 
-## Run your own copy
-
-Install Node.js **24.x** and npm. In this folder, run:
+Install Node.js **24.x** and npm, then run:
 
 ```sh
 npm ci
 npm run dev -- --hostname 127.0.0.1 --port 3201
 ```
 
-No account, paid service, or environment file is required. See [architecture and checks](docs/ARCHITECTURE.md) for production commands and tests.
+Open [the local briefing](http://127.0.0.1:3201/briefing). No account, paid service, or environment file is required. The [architecture guide](docs/ARCHITECTURE.md) covers implementation boundaries, fixture locations, production commands, and tests.
 
-## Make it yours
+## Data and analytics
 
-Edit fictional examples in `data/synthetic/`, team ownership in `features/team-operations/fixtures/`, and the guided exercise in `features/causal-loop/`. Adjust shared colors and spacing in `app/globals.css`. The [architecture guide](docs/ARCHITECTURE.md) explains the boundaries to preserve.
+Public-source links and recorded references are real. People, organizations, incidents, metrics, approvals, agents, and verification outcomes are simulated. Changed text is authored, not a captured historical difference or fresh observation. A passing simulation proves only its fixture.
 
-## What is real, and what stays local?
+Interactive state stays in browser memory and clears on refresh. Explicit scenario exports save fictional files to your device. Optional maintainer commands fetch public pages separately from the browser. The demo does not access private accounts or call model providers.
 
-The public-source links and recorded reference are real; people, organizations, incidents, metrics, approvals, agents, and verification outcomes are simulated. The exercise's changed text is authored, not a captured historical difference or fresh observation.
-
-Interactive state lives in browser memory and clears on refresh. Explicit scenario exports save a fictional file to your device. Optional command-line source checks fetch public pages and write source metadata locally. The demo does not sign in to private accounts, call model providers, or change external systems. Analytics are off unless explicitly enabled for production hosting. A passing simulation proves only its fixture.
+Production hosting enables Vercel pageview analytics through an explicit environment setting. Tracked page URLs exclude query strings and fragments; custom events are disabled. Automated visits and visits with sensitive referrers are skipped. Local and preview builds keep analytics off. Hosting-provider request logs are separate. See [security boundaries](docs/SECURITY.md).
 
 ## Attribution and license
 
-Built with ONE, the Omni Neural Engine. The repository stays private; the hosted demo is public. DemoOps has no open-source license. Apache-2.0 for ONE-job-loop does not apply here. Preserve [third-party notices](THIRD_PARTY_NOTICES.md). See [release evidence and maintenance limits](docs/RELEASE.md).
+This is a public portfolio repository. **Original project code has no open-source license**; public availability does not grant an open-source license. Third-party dependencies retain their own terms and [notices](THIRD_PARTY_NOTICES.md). See [release evidence and limitations](docs/RELEASE.md).
 
 > Independent, synthetic demonstration built from publicly available information. Not affiliated with Anthropic and not representative of Anthropic’s internal systems or architecture.

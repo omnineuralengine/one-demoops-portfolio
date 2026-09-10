@@ -21,7 +21,7 @@ The tour is a focused view of the same causal-loop reducer used elsewhere in the
 | Location | Responsibility |
 | --- | --- |
 | `app/` | Landing, briefing, lab, build notes, metadata, and shared styles. |
-| `app/notices/route.ts` | Static public text containing preserved runtime notices for visitors without private-repository access. |
+| `app/notices/route.ts` | Static public text containing preserved runtime notices directly accessible from the demo. |
 | `components/` | Reusable controls, panels, and page elements. |
 | `features/command-center/ControlPlaneProvider.tsx` | Shared interactive state and action dispatch. |
 | `features/shell/GuidedTour.tsx` | Guided navigation, explanation, and response preview. |
@@ -61,7 +61,7 @@ npm run radar:validate
 
 The checker fetches allowlisted public pages, holds bounded response bodies in process memory, then writes metadata, hashes, limited excerpts, change events, and source health under `src/generated/change-radar/`. It does not retain full response bodies. Failed source requests remain visible as failures. Review generated changes before committing them; inferred impact is not permission to change policy.
 
-Analytics are disabled by default. Enabling them requires an explicit server configuration choice and production hosting. See [security and privacy boundaries](SECURITY.md) before changing that setting. Search indexing is also disabled by default.
+The public production demo opts in to Vercel pageview analytics. The source keeps analytics disabled unless `ONE_ALLOW_ANALYTICS=true`, `NODE_ENV=production`, `VERCEL=1`, and `VERCEL_ENV=production` are present when building. The root layout mounts the client analytics component only inside that boundary. Its event filter accepts pageviews only and strips query strings and fragments from tracked page URLs; it does not add simulation state or custom events. It suppresses automated pageviews and visits with incoming referrers containing queries, fragments, or credentials. Local and preview builds remain off. See [security and privacy boundaries](SECURITY.md). Search indexing is disabled unless separately enabled.
 
 ## Tradeoffs and customization
 
