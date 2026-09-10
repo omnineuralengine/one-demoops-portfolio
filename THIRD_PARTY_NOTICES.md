@@ -2,6 +2,8 @@
 
 This file records attribution for the exact direct dependencies in `package.json` and `package-lock.json`. The original application has no project license file; these third-party terms do not choose a license for ONE DemoOps Control Plane.
 
+The hosted demo exposes the complete preserved runtime notices at `/notices`, linked from its footer. This keeps those notices available when the source repository is private. No open-source license for DemoOps is granted by that page.
+
 ## Dependency notices
 
 The following license and notice files were copied byte-for-byte from the installed packages at these pinned versions. Lucide includes both its ISC license and the MIT notice for icons derived from Feather. Playwright and TypeScript include their shipped third-party notices. `eslint-config-next` declares MIT in its package metadata but ships no separate license text; the Next.js repository license is linked explicitly.

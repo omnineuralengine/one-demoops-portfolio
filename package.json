@@ -5,7 +5,7 @@
   "private": true,
   "description": "Independent synthetic DemoOps systems portfolio built with ONE.",
   "engines": {
-    "node": ">=22.22.2"
+    "node": "24.x"
   },
   "scripts": {
     "dev": "next dev",

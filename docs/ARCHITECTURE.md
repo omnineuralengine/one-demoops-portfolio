@@ -21,6 +21,7 @@ The tour is a focused view of the same causal-loop reducer used elsewhere in the
 | Location | Responsibility |
 | --- | --- |
 | `app/` | Landing, briefing, lab, build notes, metadata, and shared styles. |
+| `app/notices/route.ts` | Static public text containing preserved runtime notices for visitors without private-repository access. |
 | `components/` | Reusable controls, panels, and page elements. |
 | `features/command-center/ControlPlaneProvider.tsx` | Shared interactive state and action dispatch. |
 | `features/shell/GuidedTour.tsx` | Guided navigation, explanation, and response preview. |
@@ -72,7 +73,7 @@ Adding a real integration would require a new design for credentials, authorizat
 
 ## Run and verify
 
-Node.js 22.22.2 or newer and npm are required. From the repository root:
+Node.js 24.x and npm are required; local validation uses 24.18.0. This major version is also selected for Vercel and CI. From the repository root:
 
 ```sh
 npm ci

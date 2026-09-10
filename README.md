@@ -16,14 +16,14 @@ Approval alone cannot resolve the exercise: passing simulated evidence and human
 
 ## Run your own copy
 
-Install Node.js **22.22.2 or newer** and npm. In this folder, run:
+Install Node.js **24.x** and npm. In this folder, run:
 
 ```sh
 npm ci
 npm run dev -- --hostname 127.0.0.1 --port 3201
 ```
 
-No account, paid service, or environment file is required. These commands install dependencies and start your copy. See [architecture and checks](docs/ARCHITECTURE.md) for production commands and tests.
+No account, paid service, or environment file is required. See [architecture and checks](docs/ARCHITECTURE.md) for production commands and tests.
 
 ## Make it yours
 
@@ -37,6 +37,6 @@ Interactive state lives in browser memory and clears on refresh. Explicit scenar
 
 ## Attribution and license
 
-Built with ONE, the Omni Neural Engine. See [third-party notices](THIRD_PARTY_NOTICES.md). No project license has been selected; reuse permission remains unresolved. [Release blockers](docs/RELEASE.md) include unsupported lint tooling.
+Built with ONE, the Omni Neural Engine. The repository stays private; the hosted demo is public. DemoOps has no open-source license. Apache-2.0 for ONE-job-loop does not apply here. Preserve [third-party notices](THIRD_PARTY_NOTICES.md). See [release evidence and maintenance limits](docs/RELEASE.md).
 
 > Independent, synthetic demonstration built from publicly available information. Not affiliated with Anthropic and not representative of Anthropic’s internal systems or architecture.

@@ -78,6 +78,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <div>
             <strong>Built with ONE</strong>
             <span>Understand the change. Own the response.</span>
+            <a href="/notices">Third-party notices</a>
           </div>
           <p>
             Independent, synthetic demonstration built from publicly available information.

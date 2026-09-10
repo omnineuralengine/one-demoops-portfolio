@@ -14,6 +14,8 @@ Do not enter real personal, customer, or organizational data when customizing th
 
 The core demonstration makes no model, identity, customer, or administrative service request. Opening an official-source link is a visitor action to a public website, outside this application.
 
+The repository is intended to remain private while the hosted demo is public. The read-only `/notices` route serves a fixed list of preserved third-party notices, rendered at build time. It accepts no file path from visitors and does not expose repository documents, Git metadata, or environment values.
+
 The optional maintainer command `npm run docs:check` performs public network requests separately from the browser. The collector checks official hosts, path prefixes, redirects, timeouts, response bounds, and source availability. It needs no authentication. It writes bounded source metadata and excerpts for human review; it does not persist full response bodies. No browser-accessible route can start it.
 
 Third-party page-view analytics are **off by default**. They require all of `ONE_ALLOW_ANALYTICS=true`, `NODE_ENV=production`, `VERCEL=1`, and `VERCEL_ENV=production`. Local and preview builds do not activate them. No hosting-project identifier, deployment connection, account token, or analytics credential is shipped. If the eventual owner enables analytics, review consent, URL contents, retention, and the new hosting project’s configuration before sharing it. Hosting providers may also retain their own request logs.
